@@ -1,0 +1,136 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MonitorEvent"
+provides-nominal:
+- "24LDKMacConsumerExperiment12MonitorEventC"
+- "24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO"
+provides-member:
+- ["24LDKMacConsumerExperiment12MonitorEventC", ""]
+- ["24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "getValueAsCommitmentTxBroadcasted"
+- "getValueAsHTLCEvent"
+- "getValueType"
+depends-top-level:
+- !private "!="
+- "=="
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- "HTLCUpdate"
+- !private "IntegerLiteralType"
+- "LDKMonitorEvent"
+- !private "LDKMonitorEvent_CommitmentTxBroadcasted"
+- !private "LDKMonitorEvent_HTLCEvent"
+- "MonitorEvent"
+- "MonitorEventValueType"
+- "OutPoint"
+- !private "~="
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "CommitmentTxBroadcasted"]
+- !private ["s28CustomDebugStringConvertibleP", "HTLCEvent"]
+- !private ["s17CustomReflectableP", "CommitmentTxBroadcasted"]
+- !private ["s17CustomReflectableP", "HTLCEvent"]
+- !private ["Se", "CommitmentTxBroadcasted"]
+- !private ["Se", "HTLCEvent"]
+- !private ["SE", "CommitmentTxBroadcasted"]
+- !private ["SE", "HTLCEvent"]
+- ["SQ", "=="]
+- !private ["SQ", "CommitmentTxBroadcasted"]
+- !private ["SQ", "HTLCEvent"]
+- !private ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["s23ExpressibleByNilLiteralP", "CommitmentTxBroadcasted"]
+- !private ["s23ExpressibleByNilLiteralP", "HTLCEvent"]
+- !private ["24LDKMacConsumerExperiment10HTLCUpdateC", "init"]
+- ["SH", "=="]
+- !private ["SH", "CommitmentTxBroadcasted"]
+- !private ["SH", "HTLCEvent"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["So15LDKMonitorEventV", "commitment_tx_broadcasted"]
+- !private ["So15LDKMonitorEventV", "htlc_event"]
+- !private ["So15LDKMonitorEventV", "tag"]
+- !private ["So19LDKMonitorEvent_TagV", "RawValue"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "HTLCUpdate"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "LDKMonitorEvent"]
+- !private ["24LDKMacConsumerExperiment12MonitorEventC", "LDKMonitorEvent_CommitmentTxBroadcasted"]
+- !private ["24LDKMacConsumerExperiment12MonitorEventC", "LDKMonitorEvent_HTLCEvent"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "MonitorEventValueType"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "OutPoint"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "deinit"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "getValueAsCommitmentTxBroadcasted"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "getValueAsHTLCEvent"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "getValueType"]
+- ["24LDKMacConsumerExperiment12MonitorEventC", "init"]
+- ["24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO", "=="]
+- ["24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO", "CommitmentTxBroadcasted"]
+- ["24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO", "HTLCEvent"]
+- ["24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO", ""]
+- ["24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO", "__derived_enum_equals"]
+- ["24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO", "_rawHashValue"]
+- ["24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO", "hash"]
+- ["24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO", "hashValue"]
+- !private ["Sq", "CommitmentTxBroadcasted"]
+- !private ["Sq", "HTLCEvent"]
+- !private ["24LDKMacConsumerExperiment8OutPointC", "init"]
+- !private ["SY", "RawValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "CommitmentTxBroadcasted"]
+- !private ["s21_ObjectiveCBridgeableP", "HTLCEvent"]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "24LDKMacConsumerExperiment10HTLCUpdateC"
+- "SH"
+- !private "s6HasherV"
+- !private "So15LDKMonitorEventV"
+- !private "So19LDKMonitorEvent_TagV"
+- "24LDKMacConsumerExperiment12MonitorEventC"
+- "24LDKMacConsumerExperiment12MonitorEventC0dE9ValueTypeO"
+- !private "Sq"
+- !private "24LDKMacConsumerExperiment8OutPointC"
+- !private "SY"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "209615a1102d548915a8cbf7e0d18c77"

@@ -1,0 +1,185 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChannelHandshakeLimits"
+provides-nominal:
+- "24LDKMacConsumerExperiment22ChannelHandshakeLimitsC"
+provides-member:
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "clone"
+- "get_force_announced_channel_preference"
+- "get_max_channel_reserve_satoshis"
+- "get_max_htlc_minimum_msat"
+- "get_max_minimum_depth"
+- "get_min_funding_satoshis"
+- "get_min_max_accepted_htlcs"
+- "get_min_max_htlc_value_in_flight_msat"
+- "get_their_to_self_delay"
+- "set_force_announced_channel_preference"
+- "set_max_channel_reserve_satoshis"
+- "set_max_htlc_minimum_msat"
+- "set_max_minimum_depth"
+- "set_min_funding_satoshis"
+- "set_min_max_accepted_htlcs"
+- "set_min_max_htlc_value_in_flight_msat"
+- "set_their_to_self_delay"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ChannelHandshakeLimits"
+- "ChannelHandshakeLimits_clone"
+- !private "ChannelHandshakeLimits_default"
+- !private "ChannelHandshakeLimits_free"
+- "ChannelHandshakeLimits_get_force_announced_channel_preference"
+- "ChannelHandshakeLimits_get_max_channel_reserve_satoshis"
+- "ChannelHandshakeLimits_get_max_htlc_minimum_msat"
+- "ChannelHandshakeLimits_get_max_minimum_depth"
+- "ChannelHandshakeLimits_get_min_funding_satoshis"
+- "ChannelHandshakeLimits_get_min_max_accepted_htlcs"
+- "ChannelHandshakeLimits_get_min_max_htlc_value_in_flight_msat"
+- "ChannelHandshakeLimits_get_their_to_self_delay"
+- !private "ChannelHandshakeLimits_set_force_announced_channel_preference"
+- !private "ChannelHandshakeLimits_set_max_channel_reserve_satoshis"
+- !private "ChannelHandshakeLimits_set_max_htlc_minimum_msat"
+- !private "ChannelHandshakeLimits_set_max_minimum_depth"
+- !private "ChannelHandshakeLimits_set_min_funding_satoshis"
+- !private "ChannelHandshakeLimits_set_min_max_accepted_htlcs"
+- !private "ChannelHandshakeLimits_set_min_max_htlc_value_in_flight_msat"
+- !private "ChannelHandshakeLimits_set_their_to_self_delay"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LDKChannelHandshakeLimits"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- "Void"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "initialize"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "Bool"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_clone"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_default"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_free"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_get_force_announced_channel_preference"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_get_max_channel_reserve_satoshis"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_get_max_htlc_minimum_msat"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_get_max_minimum_depth"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_get_min_funding_satoshis"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_get_min_max_accepted_htlcs"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_get_min_max_htlc_value_in_flight_msat"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_get_their_to_self_delay"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_set_force_announced_channel_preference"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_set_max_channel_reserve_satoshis"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_set_max_htlc_minimum_msat"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_set_max_minimum_depth"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_set_min_funding_satoshis"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_set_min_max_accepted_htlcs"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_set_min_max_htlc_value_in_flight_msat"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "ChannelHandshakeLimits_set_their_to_self_delay"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "LDKChannelHandshakeLimits"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "UInt16"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "UInt32"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "UInt64"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "UnsafeMutablePointer"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "UnsafePointer"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "Void"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "clone"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "deinit"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "get_force_announced_channel_preference"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "get_max_channel_reserve_satoshis"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "get_max_htlc_minimum_msat"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "get_max_minimum_depth"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "get_min_funding_satoshis"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "get_min_max_accepted_htlcs"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "get_min_max_htlc_value_in_flight_msat"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "get_their_to_self_delay"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "init"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "set_force_announced_channel_preference"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "set_max_channel_reserve_satoshis"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "set_max_htlc_minimum_msat"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "set_max_minimum_depth"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "set_min_funding_satoshis"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "set_min_max_accepted_htlcs"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "set_min_max_htlc_value_in_flight_msat"]
+- ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "set_their_to_self_delay"]
+- !private ["24LDKMacConsumerExperiment22ChannelHandshakeLimitsC", "withUnsafePointer"]
+- !private ["SL", ""]
+- !private ["SL", "allocate"]
+- !private ["SL", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["SQ", ""]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "initialize"]
+- !private ["SH", ""]
+- !private ["SH", "allocate"]
+- !private ["SH", "initialize"]
+- !private ["So25LDKChannelHandshakeLimitsV", "is_owned"]
+- !private ["Sx", ""]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "initialize"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "initialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "initialize"]
+depends-nominal:
+- !private "s7CVarArgP"
+- "24LDKMacConsumerExperiment22ChannelHandshakeLimitsC"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "SQ"
+- !private "SH"
+- !private "So25LDKChannelHandshakeLimitsV"
+- !private "Sx"
+- !private "Sp"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cc7a30029946958264c60d28da7dfb9a"

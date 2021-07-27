@@ -1,0 +1,90 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IgnoringMessageHandler"
+provides-nominal:
+- "24LDKMacConsumerExperiment22IgnoringMessageHandlerC"
+provides-member:
+- ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", ""]
+provides-dynamic-lookup:
+- "as_MessageSendEventsProvider"
+- "as_RoutingMessageHandler"
+- "cOpaqueStruct"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "IgnoringMessageHandler"
+- "IgnoringMessageHandler_as_MessageSendEventsProvider"
+- "IgnoringMessageHandler_as_RoutingMessageHandler"
+- !private "IgnoringMessageHandler_free"
+- !private "IgnoringMessageHandler_new"
+- "LDKIgnoringMessageHandler"
+- "MessageSendEventsProvider"
+- !private "NativelyImplementedMessageSendEventsProvider"
+- !private "NativelyImplementedRoutingMessageHandler"
+- "RoutingMessageHandler"
+- "UnsafePointer"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "IgnoringMessageHandler_as_MessageSendEventsProvider"]
+- !private ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "IgnoringMessageHandler_as_RoutingMessageHandler"]
+- !private ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "IgnoringMessageHandler_free"]
+- !private ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "IgnoringMessageHandler_new"]
+- ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "LDKIgnoringMessageHandler"]
+- ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "MessageSendEventsProvider"]
+- !private ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "NativelyImplementedMessageSendEventsProvider"]
+- !private ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "NativelyImplementedRoutingMessageHandler"]
+- ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "RoutingMessageHandler"]
+- !private ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "UnsafePointer"]
+- ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "as_MessageSendEventsProvider"]
+- ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "as_RoutingMessageHandler"]
+- ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "deinit"]
+- ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "init"]
+- !private ["24LDKMacConsumerExperiment22IgnoringMessageHandlerC", "withUnsafePointer"]
+- !private ["So25LDKIgnoringMessageHandlerV", "is_owned"]
+- ["24LDKMacConsumerExperiment25MessageSendEventsProviderC", ""]
+- !private ["24LDKMacConsumerExperiment25MessageSendEventsProviderC", "init"]
+- !private ["24LDKMacConsumerExperiment44NativelyImplementedMessageSendEventsProviderC", "init"]
+- !private ["24LDKMacConsumerExperiment40NativelyImplementedRoutingMessageHandlerC", "init"]
+- ["24LDKMacConsumerExperiment21RoutingMessageHandlerC", ""]
+- !private ["24LDKMacConsumerExperiment21RoutingMessageHandlerC", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- "24LDKMacConsumerExperiment22IgnoringMessageHandlerC"
+- !private "So25LDKIgnoringMessageHandlerV"
+- "24LDKMacConsumerExperiment25MessageSendEventsProviderC"
+- !private "24LDKMacConsumerExperiment44NativelyImplementedMessageSendEventsProviderC"
+- !private "24LDKMacConsumerExperiment40NativelyImplementedRoutingMessageHandlerC"
+- "24LDKMacConsumerExperiment21RoutingMessageHandlerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ccea9f8ef845ddbd395ec1ea38d73621"

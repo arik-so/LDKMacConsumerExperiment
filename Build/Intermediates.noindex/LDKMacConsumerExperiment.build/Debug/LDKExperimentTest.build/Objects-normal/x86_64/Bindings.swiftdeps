@@ -1,0 +1,1381 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LDKTransactionOutputs"
+- "LDKTxid"
+- "Bindings"
+- "TxOut"
+- "InstanceCrashSimulator"
+provides-nominal:
+- "17LDKExperimentTest8BindingsC"
+- "17LDKExperimentTest5TxOutC"
+- "17LDKExperimentTest22InstanceCrashSimulatorC"
+provides-member:
+- ["17LDKExperimentTest8BindingsC", ""]
+- ["17LDKExperimentTest5TxOutC", ""]
+- ["17LDKExperimentTest22InstanceCrashSimulatorC", ""]
+provides-dynamic-lookup:
+- "LDKCVec_APIErrorZ_to_array"
+- "LDKCVec_C2Tuple_BlockHashChannelMonitorZZ_to_array"
+- "LDKCVec_C2Tuple_TxidCVec_C2Tuple_u32ScriptZZZZ_to_array"
+- "LDKCVec_C2Tuple_u32ScriptZZ_to_array"
+- "LDKCVec_C2Tuple_u32TxOutZZ_to_array"
+- "LDKCVec_C2Tuple_usizeTransactionZZ_to_array"
+- "LDKCVec_C3Tuple_ChannelAnnouncementChannelUpdateChannelUpdateZZ_to_array"
+- "LDKCVec_CResult_NoneAPIErrorZZ_to_array"
+- "LDKCVec_CVec_RouteHopZZ_to_array"
+- "LDKCVec_CVec_u8ZZ_to_array"
+- "LDKCVec_ChannelDetailsZ_to_array"
+- "LDKCVec_ChannelMonitorZ_to_array"
+- "LDKCVec_EventZ_to_array"
+- "LDKCVec_MessageSendEventZ_to_array"
+- "LDKCVec_MonitorEventZ_to_array"
+- "LDKCVec_NetAddressZ_to_array"
+- "LDKCVec_NodeAnnouncementZ_to_array"
+- "LDKCVec_PrivateRouteZ_to_array"
+- "LDKCVec_PublicKeyZ_to_array"
+- "LDKCVec_RouteHintZ_to_array"
+- "LDKCVec_RouteHopZ_to_array"
+- "LDKCVec_SignatureZ_to_array"
+- "LDKCVec_SpendableOutputDescriptorZ_to_array"
+- "LDKCVec_TransactionOutputsZ_to_array"
+- "LDKCVec_TransactionZ_to_array"
+- "LDKCVec_TxOutZ_to_array"
+- "LDKCVec_TxidZ_to_array"
+- "LDKCVec_UpdateAddHTLCZ_to_array"
+- "LDKCVec_UpdateFailHTLCZ_to_array"
+- "LDKCVec_UpdateFailMalformedHTLCZ_to_array"
+- "LDKCVec_UpdateFulfillHTLCZ_to_array"
+- "LDKCVec_u64Z_to_array"
+- "LDKCVec_u8Z_to_array"
+- "LDKFourBytes_to_array"
+- "LDKPublicKey_to_array"
+- "LDKRecoverableSignature_to_array"
+- "LDKSecretKey_to_array"
+- "LDKSignature_to_array"
+- "LDKSixteenBytes_to_array"
+- "LDKStr_to_string"
+- "LDKTenBytes_to_array"
+- "LDKThirtyTwoBytes_to_array"
+- "LDKThreeBytes_to_array"
+- "LDKTransaction_to_array"
+- "LDKTwentyBytes_to_array"
+- "LDKu8slice_to_array"
+- "UnsafeIntPointer_to_string"
+- "array_to_tuple10"
+- "array_to_tuple16"
+- "array_to_tuple20"
+- "array_to_tuple3"
+- "array_to_tuple32"
+- "array_to_tuple33"
+- "array_to_tuple4"
+- "array_to_tuple64"
+- "array_to_tuple68"
+- "array_to_tuple80"
+- "cOpaqueStruct"
+- "createInvoiceFromChannelManager"
+- "getPointer"
+- "getRoute"
+- "getScriptPubkey"
+- "getValue"
+- "instanceToPointer"
+- "nativelyExposedInstances"
+- "new_LDKCVec_APIErrorZ"
+- "new_LDKCVec_C2Tuple_BlockHashChannelMonitorZZ"
+- "new_LDKCVec_C2Tuple_TxidCVec_C2Tuple_u32ScriptZZZZ"
+- "new_LDKCVec_C2Tuple_u32ScriptZZ"
+- "new_LDKCVec_C2Tuple_u32TxOutZZ"
+- "new_LDKCVec_C2Tuple_usizeTransactionZZ"
+- "new_LDKCVec_C3Tuple_ChannelAnnouncementChannelUpdateChannelUpdateZZ"
+- "new_LDKCVec_CResult_NoneAPIErrorZZ"
+- "new_LDKCVec_CVec_RouteHopZZ"
+- "new_LDKCVec_CVec_u8ZZ"
+- "new_LDKCVec_ChannelDetailsZ"
+- "new_LDKCVec_ChannelMonitorZ"
+- "new_LDKCVec_EventZ"
+- "new_LDKCVec_MessageSendEventZ"
+- "new_LDKCVec_MonitorEventZ"
+- "new_LDKCVec_NetAddressZ"
+- "new_LDKCVec_NodeAnnouncementZ"
+- "new_LDKCVec_PrivateRouteZ"
+- "new_LDKCVec_PublicKeyZ"
+- "new_LDKCVec_RouteHintZ"
+- "new_LDKCVec_RouteHopZ"
+- "new_LDKCVec_SignatureZ"
+- "new_LDKCVec_SpendableOutputDescriptorZ"
+- "new_LDKCVec_TransactionOutputsZ"
+- "new_LDKCVec_TransactionZ"
+- "new_LDKCVec_TxOutZ"
+- "new_LDKCVec_TxidZ"
+- "new_LDKCVec_UpdateAddHTLCZ"
+- "new_LDKCVec_UpdateFailHTLCZ"
+- "new_LDKCVec_UpdateFailMalformedHTLCZ"
+- "new_LDKCVec_UpdateFulfillHTLCZ"
+- "new_LDKCVec_u64Z"
+- "new_LDKCVec_u8Z"
+- "new_LDKFourBytes"
+- "new_LDKPublicKey"
+- "new_LDKRecoverableSignature"
+- "new_LDKSecretKey"
+- "new_LDKSignature"
+- "new_LDKSixteenBytes"
+- "new_LDKStr"
+- "new_LDKTenBytes"
+- "new_LDKThirtyTwoBytes"
+- "new_LDKThreeBytes"
+- "new_LDKTransaction"
+- "new_LDKTwentyBytes"
+- "new_LDKu8slice"
+- "pointerToInstance"
+- "string_to_unsafe_int8_pointer"
+- "string_to_unsafe_uint8_pointer"
+- "swift_C2Tuple_BlockHashChannelManagerZ_read"
+- "swift_C2Tuple_BlockHashChannelMonitorZ_read"
+- "swift_Result_read"
+- "swift_build_commitment_secret"
+- "swift_build_htlc_transaction"
+- "swift_check_platform"
+- "swift_create_invoice_from_channelmanager"
+- "swift_derive_private_key"
+- "swift_derive_private_revocation_key"
+- "swift_derive_public_key"
+- "swift_derive_public_revocation_key"
+- "swift_get_commitment_transaction_number_obscure_factor"
+- "swift_get_htlc_redeemscript"
+- "swift_get_revokeable_redeemscript"
+- "swift_ldk_c_bindings_get_compiled_version"
+- "swift_ldk_get_compiled_version"
+- "swift_make_funding_redeemscript"
+- "swift_recover_pk"
+- "swift_sign"
+- "swift_verify"
+- "tuple10_to_array"
+- "tuple16_to_array"
+- "tuple20_to_array"
+- "tuple32_to_array"
+- "tuple33_to_array"
+- "tuple3_to_array"
+- "tuple4_to_array"
+- "tuple64_to_array"
+- "tuple68_to_array"
+- "tuple80_to_array"
+depends-top-level:
+- !private "..<"
+- !private "=="
+- !private "??"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bindings"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "C2Tuple_BlockHashChannelManagerZ_read"
+- "C2Tuple_BlockHashChannelMonitorZ_read"
+- "CastingPrecedence"
+- "ChannelManager"
+- "ChannelManagerReadArgs"
+- !private "FloatLiteralType"
+- "HTLCOutputInCommitment"
+- "InstanceCrashSimulator"
+- !private "Int"
+- "Int8"
+- !private "IntegerLiteralType"
+- "InvoiceFeatures"
+- "KeysInterface"
+- "LDKAPIError"
+- "LDKC2Tuple_BlockHashChannelMonitorZ"
+- "LDKC2Tuple_TxidCVec_C2Tuple_u32ScriptZZZ"
+- "LDKC2Tuple_TxidCVec_C2Tuple_u32TxOutZZZ"
+- "LDKC2Tuple_u32ScriptZ"
+- "LDKC2Tuple_u32TxOutZ"
+- "LDKC2Tuple_usizeTransactionZ"
+- "LDKC3Tuple_ChannelAnnouncementChannelUpdateChannelUpdateZ"
+- "LDKCResult_NoneAPIErrorZ"
+- "LDKCVec_APIErrorZ"
+- "LDKCVec_C2Tuple_BlockHashChannelMonitorZZ"
+- "LDKCVec_C2Tuple_TxidCVec_C2Tuple_u32ScriptZZZZ"
+- "LDKCVec_C2Tuple_u32ScriptZZ"
+- "LDKCVec_C2Tuple_u32TxOutZZ"
+- "LDKCVec_C2Tuple_usizeTransactionZZ"
+- "LDKCVec_C3Tuple_ChannelAnnouncementChannelUpdateChannelUpdateZZ"
+- "LDKCVec_CResult_NoneAPIErrorZZ"
+- "LDKCVec_CVec_RouteHopZZ"
+- "LDKCVec_CVec_u8ZZ"
+- "LDKCVec_ChannelDetailsZ"
+- "LDKCVec_ChannelMonitorZ"
+- "LDKCVec_EventZ"
+- "LDKCVec_MessageSendEventZ"
+- "LDKCVec_MonitorEventZ"
+- "LDKCVec_NetAddressZ"
+- "LDKCVec_NodeAnnouncementZ"
+- "LDKCVec_PrivateRouteZ"
+- "LDKCVec_PublicKeyZ"
+- "LDKCVec_RouteHintZ"
+- "LDKCVec_RouteHopZ"
+- !private "LDKCVec_RouteHopZ_to_array"
+- "LDKCVec_SignatureZ"
+- "LDKCVec_SpendableOutputDescriptorZ"
+- "LDKCVec_TransactionOutputsZ"
+- "LDKCVec_TransactionZ"
+- "LDKCVec_TxOutZ"
+- "LDKCVec_TxidZ"
+- "LDKCVec_UpdateAddHTLCZ"
+- "LDKCVec_UpdateFailHTLCZ"
+- "LDKCVec_UpdateFailMalformedHTLCZ"
+- "LDKCVec_UpdateFulfillHTLCZ"
+- "LDKCVec_u64Z"
+- "LDKCVec_u8Z"
+- !private "LDKCVec_u8Z_to_array"
+- "LDKChannelDetails"
+- "LDKChannelManager"
+- "LDKChannelMonitor"
+- "LDKCurrency"
+- "LDKEvent"
+- "LDKFourBytes"
+- "LDKHTLCOutputInCommitment"
+- "LDKKeysInterface"
+- "LDKMessageSendEvent"
+- "LDKMonitorEvent"
+- "LDKNetAddress"
+- "LDKNetworkGraph"
+- "LDKNodeAnnouncement"
+- "LDKPrivateRoute"
+- "LDKPublicKey"
+- !private "LDKPublicKey_to_array"
+- "LDKRecoverableSignature"
+- "LDKRouteHint"
+- "LDKRouteHop"
+- "LDKSecretKey"
+- "LDKSignature"
+- !private "LDKSignature_to_array"
+- "LDKSixteenBytes"
+- "LDKSpendableOutputDescriptor"
+- "LDKStr"
+- "LDKTenBytes"
+- "LDKThirtyTwoBytes"
+- "LDKThreeBytes"
+- "LDKTransaction"
+- "LDKTransactionOutputs"
+- !private "LDKTransaction_to_array"
+- "LDKTwentyBytes"
+- "LDKTxCreationKeys"
+- "LDKTxOut"
+- "LDKTxid"
+- "LDKUpdateAddHTLC"
+- "LDKUpdateFailHTLC"
+- "LDKUpdateFailMalformedHTLC"
+- "LDKUpdateFulfillHTLC"
+- "LDKu8slice"
+- "Logger"
+- "NetworkGraph"
+- "Option_u64Z"
+- "Result_C2Tuple_BlockHashChannelManagerZDecodeErrorZ"
+- "Result_C2Tuple_BlockHashChannelMonitorZDecodeErrorZ"
+- "Result_CResult_NetAddressu8ZDecodeErrorZ"
+- "Result_InvoiceSignOrCreationErrorZ"
+- "Result_PublicKeyErrorZ"
+- "Result_RouteLightningErrorZ"
+- "Result_SecretKeyErrorZ"
+- "Result_StringErrorZ"
+- !private "Result_read"
+- !private "Self"
+- "String"
+- !private "StringLiteralType"
+- !private "Thread"
+- "TxCreationKeys"
+- "TxOut"
+- !private "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "Unmanaged"
+- "UnsafeMutableBufferPointer"
+- !private "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "UnsafeRawPointer"
+- "Void"
+- !private "_ldk_c_bindings_get_compiled_version"
+- !private "_ldk_get_compiled_version"
+- !private "assert"
+- "build_commitment_secret"
+- "build_htlc_transaction"
+- !private "check_platform"
+- "create_invoice_from_channelmanager"
+- "derive_private_key"
+- "derive_private_revocation_key"
+- !private "derive_public_key"
+- !private "derive_public_revocation_key"
+- !private "get_commitment_transaction_number_obscure_factor"
+- "get_htlc_redeemscript"
+- !private "get_revokeable_redeemscript"
+- "get_route"
+- !private "make_funding_redeemscript"
+- !private "new_LDKCVec_RouteHopZ"
+- !private "new_LDKCVec_u8Z"
+- !private "new_LDKPublicKey"
+- !private "new_LDKSignature"
+- !private "new_LDKTransaction"
+- !private "print"
+- !private "recover_pk"
+- "sign"
+- !private "verify"
+- "withUnsafeMutablePointer"
+- "withUnsafePointer"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["SK", ""]
+- !private ["SK", "allocate"]
+- !private ["SK", "append"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "copyBytes"]
+- !private ["SK", "count"]
+- !private ["SK", "data"]
+- !private ["SK", "init"]
+- !private ["SK", "initialize"]
+- !private ["SK", "subscript"]
+- !private ["SK", "utf8CString"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- ["17LDKExperimentTest8BindingsC", "AnyObject"]
+- !private ["17LDKExperimentTest8BindingsC", "Bindings"]
+- ["17LDKExperimentTest8BindingsC", "Bool"]
+- !private ["17LDKExperimentTest8BindingsC", "C2Tuple_BlockHashChannelManagerZ_read"]
+- !private ["17LDKExperimentTest8BindingsC", "C2Tuple_BlockHashChannelMonitorZ_read"]
+- ["17LDKExperimentTest8BindingsC", "ChannelManager"]
+- ["17LDKExperimentTest8BindingsC", "ChannelManagerReadArgs"]
+- ["17LDKExperimentTest8BindingsC", "HTLCOutputInCommitment"]
+- !private ["17LDKExperimentTest8BindingsC", "Int"]
+- ["17LDKExperimentTest8BindingsC", "Int8"]
+- ["17LDKExperimentTest8BindingsC", "InvoiceFeatures"]
+- ["17LDKExperimentTest8BindingsC", "KeysInterface"]
+- ["17LDKExperimentTest8BindingsC", "LDKAPIError"]
+- ["17LDKExperimentTest8BindingsC", "LDKC2Tuple_BlockHashChannelMonitorZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKC2Tuple_TxidCVec_C2Tuple_u32ScriptZZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKC2Tuple_TxidCVec_C2Tuple_u32TxOutZZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKC2Tuple_u32ScriptZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKC2Tuple_u32TxOutZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKC2Tuple_usizeTransactionZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKC3Tuple_ChannelAnnouncementChannelUpdateChannelUpdateZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCResult_NoneAPIErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_APIErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_APIErrorZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_BlockHashChannelMonitorZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_BlockHashChannelMonitorZZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_TxidCVec_C2Tuple_u32ScriptZZZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_TxidCVec_C2Tuple_u32ScriptZZZZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_u32ScriptZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_u32ScriptZZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_u32TxOutZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_u32TxOutZZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_usizeTransactionZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C2Tuple_usizeTransactionZZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C3Tuple_ChannelAnnouncementChannelUpdateChannelUpdateZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_C3Tuple_ChannelAnnouncementChannelUpdateChannelUpdateZZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_CResult_NoneAPIErrorZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_CResult_NoneAPIErrorZZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_CVec_RouteHopZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_CVec_RouteHopZZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_CVec_u8ZZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_CVec_u8ZZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_ChannelDetailsZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_ChannelDetailsZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_ChannelMonitorZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_ChannelMonitorZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_EventZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_EventZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_MessageSendEventZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_MessageSendEventZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_MonitorEventZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_MonitorEventZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_NetAddressZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_NetAddressZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_NodeAnnouncementZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_NodeAnnouncementZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_PrivateRouteZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_PrivateRouteZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_PublicKeyZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_PublicKeyZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_RouteHintZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_RouteHintZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_RouteHopZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_RouteHopZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_SignatureZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_SignatureZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_SpendableOutputDescriptorZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_SpendableOutputDescriptorZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_TransactionOutputsZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_TransactionOutputsZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_TransactionZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_TransactionZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_TxOutZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_TxOutZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_TxidZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_TxidZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_UpdateAddHTLCZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_UpdateAddHTLCZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_UpdateFailHTLCZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_UpdateFailHTLCZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_UpdateFailMalformedHTLCZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_UpdateFailMalformedHTLCZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_UpdateFulfillHTLCZ"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_UpdateFulfillHTLCZ_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_u64Z"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_u64Z_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_u8Z"]
+- ["17LDKExperimentTest8BindingsC", "LDKCVec_u8Z_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKChannelDetails"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKChannelManager"]
+- ["17LDKExperimentTest8BindingsC", "LDKChannelMonitor"]
+- ["17LDKExperimentTest8BindingsC", "LDKCurrency"]
+- ["17LDKExperimentTest8BindingsC", "LDKEvent"]
+- ["17LDKExperimentTest8BindingsC", "LDKFourBytes"]
+- ["17LDKExperimentTest8BindingsC", "LDKFourBytes_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKHTLCOutputInCommitment"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKKeysInterface"]
+- ["17LDKExperimentTest8BindingsC", "LDKMessageSendEvent"]
+- ["17LDKExperimentTest8BindingsC", "LDKMonitorEvent"]
+- ["17LDKExperimentTest8BindingsC", "LDKNetAddress"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKNetworkGraph"]
+- ["17LDKExperimentTest8BindingsC", "LDKNodeAnnouncement"]
+- ["17LDKExperimentTest8BindingsC", "LDKPrivateRoute"]
+- ["17LDKExperimentTest8BindingsC", "LDKPublicKey"]
+- ["17LDKExperimentTest8BindingsC", "LDKPublicKey_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKRecoverableSignature"]
+- ["17LDKExperimentTest8BindingsC", "LDKRecoverableSignature_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKRouteHint"]
+- ["17LDKExperimentTest8BindingsC", "LDKRouteHop"]
+- ["17LDKExperimentTest8BindingsC", "LDKSecretKey"]
+- ["17LDKExperimentTest8BindingsC", "LDKSecretKey_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKSignature"]
+- ["17LDKExperimentTest8BindingsC", "LDKSignature_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKSixteenBytes"]
+- ["17LDKExperimentTest8BindingsC", "LDKSixteenBytes_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKSpendableOutputDescriptor"]
+- ["17LDKExperimentTest8BindingsC", "LDKStr"]
+- ["17LDKExperimentTest8BindingsC", "LDKStr_to_string"]
+- ["17LDKExperimentTest8BindingsC", "LDKTenBytes"]
+- ["17LDKExperimentTest8BindingsC", "LDKTenBytes_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKThirtyTwoBytes"]
+- ["17LDKExperimentTest8BindingsC", "LDKThirtyTwoBytes_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKThreeBytes"]
+- ["17LDKExperimentTest8BindingsC", "LDKThreeBytes_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKTransaction"]
+- ["17LDKExperimentTest8BindingsC", "LDKTransaction_to_array"]
+- ["17LDKExperimentTest8BindingsC", "LDKTwentyBytes"]
+- ["17LDKExperimentTest8BindingsC", "LDKTwentyBytes_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKTxCreationKeys"]
+- ["17LDKExperimentTest8BindingsC", "LDKTxOut"]
+- ["17LDKExperimentTest8BindingsC", "LDKUpdateAddHTLC"]
+- ["17LDKExperimentTest8BindingsC", "LDKUpdateFailHTLC"]
+- ["17LDKExperimentTest8BindingsC", "LDKUpdateFailMalformedHTLC"]
+- ["17LDKExperimentTest8BindingsC", "LDKUpdateFulfillHTLC"]
+- ["17LDKExperimentTest8BindingsC", "LDKu8slice"]
+- ["17LDKExperimentTest8BindingsC", "LDKu8slice_to_array"]
+- ["17LDKExperimentTest8BindingsC", "Logger"]
+- ["17LDKExperimentTest8BindingsC", "NetworkGraph"]
+- ["17LDKExperimentTest8BindingsC", "Option_u64Z"]
+- ["17LDKExperimentTest8BindingsC", "Result_C2Tuple_BlockHashChannelManagerZDecodeErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "Result_C2Tuple_BlockHashChannelMonitorZDecodeErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "Result_CResult_NetAddressu8ZDecodeErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "Result_InvoiceSignOrCreationErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "Result_PublicKeyErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "Result_RouteLightningErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "Result_SecretKeyErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "Result_StringErrorZ"]
+- !private ["17LDKExperimentTest8BindingsC", "Result_read"]
+- !private ["17LDKExperimentTest8BindingsC", "Self"]
+- ["17LDKExperimentTest8BindingsC", "String"]
+- !private ["17LDKExperimentTest8BindingsC", "Thread"]
+- ["17LDKExperimentTest8BindingsC", "TxCreationKeys"]
+- !private ["17LDKExperimentTest8BindingsC", "UInt"]
+- ["17LDKExperimentTest8BindingsC", "UInt16"]
+- ["17LDKExperimentTest8BindingsC", "UInt32"]
+- ["17LDKExperimentTest8BindingsC", "UInt64"]
+- ["17LDKExperimentTest8BindingsC", "UInt8"]
+- !private ["17LDKExperimentTest8BindingsC", "Unmanaged"]
+- ["17LDKExperimentTest8BindingsC", "UnsafeIntPointer_to_string"]
+- !private ["17LDKExperimentTest8BindingsC", "UnsafeMutableBufferPointer"]
+- !private ["17LDKExperimentTest8BindingsC", "UnsafeMutablePointer"]
+- ["17LDKExperimentTest8BindingsC", "UnsafeMutableRawPointer"]
+- ["17LDKExperimentTest8BindingsC", "UnsafePointer"]
+- ["17LDKExperimentTest8BindingsC", "UnsafeRawPointer"]
+- ["17LDKExperimentTest8BindingsC", "Void"]
+- !private ["17LDKExperimentTest8BindingsC", "_ldk_c_bindings_get_compiled_version"]
+- !private ["17LDKExperimentTest8BindingsC", "_ldk_get_compiled_version"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple10"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple16"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple20"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple3"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple32"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple33"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple4"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple64"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple68"]
+- ["17LDKExperimentTest8BindingsC", "array_to_tuple80"]
+- !private ["17LDKExperimentTest8BindingsC", "assert"]
+- !private ["17LDKExperimentTest8BindingsC", "build_commitment_secret"]
+- !private ["17LDKExperimentTest8BindingsC", "build_htlc_transaction"]
+- !private ["17LDKExperimentTest8BindingsC", "check_platform"]
+- ["17LDKExperimentTest8BindingsC", "createInvoiceFromChannelManager"]
+- !private ["17LDKExperimentTest8BindingsC", "create_invoice_from_channelmanager"]
+- ["17LDKExperimentTest8BindingsC", "deinit"]
+- !private ["17LDKExperimentTest8BindingsC", "derive_private_key"]
+- !private ["17LDKExperimentTest8BindingsC", "derive_private_revocation_key"]
+- !private ["17LDKExperimentTest8BindingsC", "derive_public_key"]
+- !private ["17LDKExperimentTest8BindingsC", "derive_public_revocation_key"]
+- ["17LDKExperimentTest8BindingsC", "getRoute"]
+- !private ["17LDKExperimentTest8BindingsC", "get_commitment_transaction_number_obscure_factor"]
+- !private ["17LDKExperimentTest8BindingsC", "get_htlc_redeemscript"]
+- !private ["17LDKExperimentTest8BindingsC", "get_revokeable_redeemscript"]
+- !private ["17LDKExperimentTest8BindingsC", "get_route"]
+- ["17LDKExperimentTest8BindingsC", "init"]
+- ["17LDKExperimentTest8BindingsC", "instanceToPointer"]
+- !private ["17LDKExperimentTest8BindingsC", "ldk_c_bindings_get_compiled_version"]
+- !private ["17LDKExperimentTest8BindingsC", "ldk_get_compiled_version"]
+- !private ["17LDKExperimentTest8BindingsC", "make_funding_redeemscript"]
+- ["17LDKExperimentTest8BindingsC", "nativelyExposedInstances"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_APIErrorZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_C2Tuple_BlockHashChannelMonitorZZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_C2Tuple_TxidCVec_C2Tuple_u32ScriptZZZZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_C2Tuple_u32ScriptZZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_C2Tuple_u32TxOutZZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_C2Tuple_usizeTransactionZZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_C3Tuple_ChannelAnnouncementChannelUpdateChannelUpdateZZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_CResult_NoneAPIErrorZZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_CVec_RouteHopZZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_CVec_u8ZZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_ChannelDetailsZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_ChannelMonitorZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_EventZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_MessageSendEventZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_MonitorEventZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_NetAddressZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_NodeAnnouncementZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_PrivateRouteZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_PublicKeyZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_RouteHintZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_RouteHopZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_SignatureZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_SpendableOutputDescriptorZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_TransactionOutputsZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_TransactionZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_TxOutZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_TxidZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_UpdateAddHTLCZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_UpdateFailHTLCZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_UpdateFailMalformedHTLCZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_UpdateFulfillHTLCZ"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_u64Z"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKCVec_u8Z"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKFourBytes"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKPublicKey"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKRecoverableSignature"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKSecretKey"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKSignature"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKSixteenBytes"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKStr"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKTenBytes"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKThirtyTwoBytes"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKThreeBytes"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKTransaction"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKTwentyBytes"]
+- ["17LDKExperimentTest8BindingsC", "new_LDKu8slice"]
+- ["17LDKExperimentTest8BindingsC", "pointerToInstance"]
+- !private ["17LDKExperimentTest8BindingsC", "print"]
+- !private ["17LDKExperimentTest8BindingsC", "recover_pk"]
+- !private ["17LDKExperimentTest8BindingsC", "sign"]
+- ["17LDKExperimentTest8BindingsC", "string_to_unsafe_int8_pointer"]
+- ["17LDKExperimentTest8BindingsC", "string_to_unsafe_uint8_pointer"]
+- ["17LDKExperimentTest8BindingsC", "swift_C2Tuple_BlockHashChannelManagerZ_read"]
+- ["17LDKExperimentTest8BindingsC", "swift_C2Tuple_BlockHashChannelMonitorZ_read"]
+- ["17LDKExperimentTest8BindingsC", "swift_Result_read"]
+- ["17LDKExperimentTest8BindingsC", "swift_build_commitment_secret"]
+- ["17LDKExperimentTest8BindingsC", "swift_build_htlc_transaction"]
+- ["17LDKExperimentTest8BindingsC", "swift_check_platform"]
+- ["17LDKExperimentTest8BindingsC", "swift_create_invoice_from_channelmanager"]
+- ["17LDKExperimentTest8BindingsC", "swift_derive_private_key"]
+- ["17LDKExperimentTest8BindingsC", "swift_derive_private_revocation_key"]
+- ["17LDKExperimentTest8BindingsC", "swift_derive_public_key"]
+- ["17LDKExperimentTest8BindingsC", "swift_derive_public_revocation_key"]
+- ["17LDKExperimentTest8BindingsC", "swift_get_commitment_transaction_number_obscure_factor"]
+- ["17LDKExperimentTest8BindingsC", "swift_get_htlc_redeemscript"]
+- ["17LDKExperimentTest8BindingsC", "swift_get_revokeable_redeemscript"]
+- ["17LDKExperimentTest8BindingsC", "swift_ldk_c_bindings_get_compiled_version"]
+- ["17LDKExperimentTest8BindingsC", "swift_ldk_get_compiled_version"]
+- ["17LDKExperimentTest8BindingsC", "swift_make_funding_redeemscript"]
+- ["17LDKExperimentTest8BindingsC", "swift_recover_pk"]
+- ["17LDKExperimentTest8BindingsC", "swift_sign"]
+- ["17LDKExperimentTest8BindingsC", "swift_verify"]
+- ["17LDKExperimentTest8BindingsC", "tuple10_to_array"]
+- ["17LDKExperimentTest8BindingsC", "tuple16_to_array"]
+- ["17LDKExperimentTest8BindingsC", "tuple20_to_array"]
+- ["17LDKExperimentTest8BindingsC", "tuple32_to_array"]
+- ["17LDKExperimentTest8BindingsC", "tuple33_to_array"]
+- ["17LDKExperimentTest8BindingsC", "tuple3_to_array"]
+- ["17LDKExperimentTest8BindingsC", "tuple4_to_array"]
+- ["17LDKExperimentTest8BindingsC", "tuple64_to_array"]
+- ["17LDKExperimentTest8BindingsC", "tuple68_to_array"]
+- ["17LDKExperimentTest8BindingsC", "tuple80_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "verify"]
+- !private ["17LDKExperimentTest8BindingsC", "withUnsafeMutablePointer"]
+- !private ["17LDKExperimentTest8BindingsC", "withUnsafePointer"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "copyBytes"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "data"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "utf8CString"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "callStackSymbols"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "utf8CString"]
+- !private ["17LDKExperimentTest14ChannelManagerC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest22ChannelManagerReadArgsC", "cOpaqueStruct"]
+- !private ["Sl", ""]
+- !private ["Sl", "allocate"]
+- !private ["Sl", "append"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "copyBytes"]
+- !private ["Sl", "count"]
+- !private ["Sl", "data"]
+- ["Sl", "init"]
+- !private ["Sl", "initialize"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "utf8CString"]
+- !private ["SL", ""]
+- !private ["SL", "allocate"]
+- !private ["SL", "count"]
+- !private ["SL", "data"]
+- !private ["SL", "debugDescription"]
+- !private ["SL", "init"]
+- !private ["SL", "initialize"]
+- !private ["SL", "subscript"]
+- !private ["SL", "utf8CString"]
+- !private ["s15ContiguousArrayV", "count"]
+- !private ["10Foundation15ContiguousBytesP", "allocate"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "baseAddress"]
+- !private ["10Foundation15ContiguousBytesP", "copyBytes"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "initialize"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "callStackSymbols"]
+- !private ["s28CustomDebugStringConvertibleP", "copyBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8CString"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "copyBytes"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "debugDescription"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "utf8CString"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "callStackSymbols"]
+- !private ["s23CustomStringConvertibleP", "copyBytes"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "utf8CString"]
+- !private ["10Foundation4DataV", "copyBytes"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "copyBytes"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "copyBytes"]
+- !private ["Se", "count"]
+- !private ["Se", "data"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "utf8CString"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "copyBytes"]
+- !private ["SE", "count"]
+- !private ["SE", "data"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "utf8CString"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- ["SQ", ""]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "append"]
+- !private ["SQ", "callStackSymbols"]
+- !private ["SQ", "copyBytes"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "debugDescription"]
+- ["SQ", "init"]
+- !private ["SQ", "initialize"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "utf8CString"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8CString"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "utf8CString"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8CString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8CString"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["17LDKExperimentTest22HTLCOutputInCommitmentC", "cOpaqueStruct"]
+- !private ["SH", ""]
+- !private ["SH", "allocate"]
+- !private ["SH", "append"]
+- !private ["SH", "callStackSymbols"]
+- !private ["SH", "copyBytes"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "debugDescription"]
+- ["SH", "init"]
+- !private ["SH", "initialize"]
+- !private ["SH", "subscript"]
+- !private ["SH", "utf8"]
+- !private ["SH", "utf8CString"]
+- !private ["17LDKExperimentTest22InstanceCrashSimulatorC", "Bindings"]
+- ["17LDKExperimentTest22InstanceCrashSimulatorC", "UnsafeMutableRawPointer"]
+- ["17LDKExperimentTest22InstanceCrashSimulatorC", "deinit"]
+- ["17LDKExperimentTest22InstanceCrashSimulatorC", "getPointer"]
+- ["17LDKExperimentTest22InstanceCrashSimulatorC", "init"]
+- !private ["Si", "init"]
+- !private ["17LDKExperimentTest15InvoiceFeaturesC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest13KeysInterfaceC", "cOpaqueStruct"]
+- !private ["So17LDKCVec_APIErrorZV", "data"]
+- !private ["So17LDKCVec_APIErrorZV", "datalen"]
+- !private ["So17LDKCVec_APIErrorZV", "init"]
+- !private ["So41LDKCVec_C2Tuple_BlockHashChannelMonitorZZV", "data"]
+- !private ["So41LDKCVec_C2Tuple_BlockHashChannelMonitorZZV", "datalen"]
+- !private ["So41LDKCVec_C2Tuple_BlockHashChannelMonitorZZV", "init"]
+- !private ["So025LDKCVec_C2Tuple_TxidCVec_bC14_u32ScriptZZZZV", "data"]
+- !private ["So025LDKCVec_C2Tuple_TxidCVec_bC14_u32ScriptZZZZV", "datalen"]
+- !private ["So025LDKCVec_C2Tuple_TxidCVec_bC14_u32ScriptZZZZV", "init"]
+- !private ["So27LDKCVec_C2Tuple_u32ScriptZZV", "data"]
+- !private ["So27LDKCVec_C2Tuple_u32ScriptZZV", "datalen"]
+- !private ["So27LDKCVec_C2Tuple_u32ScriptZZV", "init"]
+- !private ["So26LDKCVec_C2Tuple_u32TxOutZZV", "data"]
+- !private ["So26LDKCVec_C2Tuple_u32TxOutZZV", "datalen"]
+- !private ["So26LDKCVec_C2Tuple_u32TxOutZZV", "init"]
+- !private ["So34LDKCVec_C2Tuple_usizeTransactionZZV", "data"]
+- !private ["So34LDKCVec_C2Tuple_usizeTransactionZZV", "datalen"]
+- !private ["So34LDKCVec_C2Tuple_usizeTransactionZZV", "init"]
+- !private ["So035LDKCVec_C3Tuple_ChannelAnnouncementd6UpdatedF2ZZV", "data"]
+- !private ["So035LDKCVec_C3Tuple_ChannelAnnouncementd6UpdatedF2ZZV", "datalen"]
+- !private ["So035LDKCVec_C3Tuple_ChannelAnnouncementd6UpdatedF2ZZV", "init"]
+- !private ["So30LDKCVec_CResult_NoneAPIErrorZZV", "data"]
+- !private ["So30LDKCVec_CResult_NoneAPIErrorZZV", "datalen"]
+- !private ["So30LDKCVec_CResult_NoneAPIErrorZZV", "init"]
+- !private ["So23LDKCVec_CVec_RouteHopZZV", "data"]
+- !private ["So23LDKCVec_CVec_RouteHopZZV", "datalen"]
+- !private ["So23LDKCVec_CVec_RouteHopZZV", "init"]
+- !private ["So17LDKCVec_CVec_u8ZZV", "data"]
+- !private ["So17LDKCVec_CVec_u8ZZV", "datalen"]
+- !private ["So17LDKCVec_CVec_u8ZZV", "init"]
+- !private ["So23LDKCVec_ChannelDetailsZV", "data"]
+- !private ["So23LDKCVec_ChannelDetailsZV", "datalen"]
+- !private ["So23LDKCVec_ChannelDetailsZV", "init"]
+- !private ["So23LDKCVec_ChannelMonitorZV", "data"]
+- !private ["So23LDKCVec_ChannelMonitorZV", "datalen"]
+- !private ["So23LDKCVec_ChannelMonitorZV", "init"]
+- !private ["So14LDKCVec_EventZV", "data"]
+- !private ["So14LDKCVec_EventZV", "datalen"]
+- !private ["So14LDKCVec_EventZV", "init"]
+- !private ["So25LDKCVec_MessageSendEventZV", "data"]
+- !private ["So25LDKCVec_MessageSendEventZV", "datalen"]
+- !private ["So25LDKCVec_MessageSendEventZV", "init"]
+- !private ["So21LDKCVec_MonitorEventZV", "data"]
+- !private ["So21LDKCVec_MonitorEventZV", "datalen"]
+- !private ["So21LDKCVec_MonitorEventZV", "init"]
+- !private ["So19LDKCVec_NetAddressZV", "data"]
+- !private ["So19LDKCVec_NetAddressZV", "datalen"]
+- !private ["So19LDKCVec_NetAddressZV", "init"]
+- !private ["So25LDKCVec_NodeAnnouncementZV", "data"]
+- !private ["So25LDKCVec_NodeAnnouncementZV", "datalen"]
+- !private ["So25LDKCVec_NodeAnnouncementZV", "init"]
+- !private ["So21LDKCVec_PrivateRouteZV", "data"]
+- !private ["So21LDKCVec_PrivateRouteZV", "datalen"]
+- !private ["So21LDKCVec_PrivateRouteZV", "init"]
+- !private ["So18LDKCVec_PublicKeyZV", "data"]
+- !private ["So18LDKCVec_PublicKeyZV", "datalen"]
+- !private ["So18LDKCVec_PublicKeyZV", "init"]
+- !private ["So18LDKCVec_RouteHintZV", "data"]
+- !private ["So18LDKCVec_RouteHintZV", "datalen"]
+- !private ["So18LDKCVec_RouteHintZV", "init"]
+- !private ["So17LDKCVec_RouteHopZV", "data"]
+- !private ["So17LDKCVec_RouteHopZV", "datalen"]
+- !private ["So17LDKCVec_RouteHopZV", "init"]
+- !private ["So18LDKCVec_SignatureZV", "data"]
+- !private ["So18LDKCVec_SignatureZV", "datalen"]
+- !private ["So18LDKCVec_SignatureZV", "init"]
+- !private ["So34LDKCVec_SpendableOutputDescriptorZV", "data"]
+- !private ["So34LDKCVec_SpendableOutputDescriptorZV", "datalen"]
+- !private ["So34LDKCVec_SpendableOutputDescriptorZV", "init"]
+- !private ["So27LDKCVec_TransactionOutputsZV", "data"]
+- !private ["So27LDKCVec_TransactionOutputsZV", "datalen"]
+- !private ["So27LDKCVec_TransactionOutputsZV", "init"]
+- !private ["So20LDKCVec_TransactionZV", "data"]
+- !private ["So20LDKCVec_TransactionZV", "datalen"]
+- !private ["So20LDKCVec_TransactionZV", "init"]
+- !private ["So14LDKCVec_TxOutZV", "data"]
+- !private ["So14LDKCVec_TxOutZV", "datalen"]
+- !private ["So14LDKCVec_TxOutZV", "init"]
+- !private ["So13LDKCVec_TxidZV", "data"]
+- !private ["So13LDKCVec_TxidZV", "datalen"]
+- !private ["So13LDKCVec_TxidZV", "init"]
+- !private ["So22LDKCVec_UpdateAddHTLCZV", "data"]
+- !private ["So22LDKCVec_UpdateAddHTLCZV", "datalen"]
+- !private ["So22LDKCVec_UpdateAddHTLCZV", "init"]
+- !private ["So23LDKCVec_UpdateFailHTLCZV", "data"]
+- !private ["So23LDKCVec_UpdateFailHTLCZV", "datalen"]
+- !private ["So23LDKCVec_UpdateFailHTLCZV", "init"]
+- !private ["So32LDKCVec_UpdateFailMalformedHTLCZV", "data"]
+- !private ["So32LDKCVec_UpdateFailMalformedHTLCZV", "datalen"]
+- !private ["So32LDKCVec_UpdateFailMalformedHTLCZV", "init"]
+- !private ["So26LDKCVec_UpdateFulfillHTLCZV", "data"]
+- !private ["So26LDKCVec_UpdateFulfillHTLCZV", "datalen"]
+- !private ["So26LDKCVec_UpdateFulfillHTLCZV", "init"]
+- !private ["So12LDKCVec_u64ZV", "data"]
+- !private ["So12LDKCVec_u64ZV", "datalen"]
+- !private ["So12LDKCVec_u64ZV", "init"]
+- !private ["So11LDKCVec_u8ZV", "data"]
+- !private ["So11LDKCVec_u8ZV", "datalen"]
+- !private ["So11LDKCVec_u8ZV", "init"]
+- !private ["So12LDKFourBytesV", "data"]
+- !private ["So12LDKFourBytesV", "init"]
+- !private ["So12LDKPublicKeyV", "compressed_form"]
+- !private ["So12LDKPublicKeyV", "init"]
+- !private ["So23LDKRecoverableSignatureV", "init"]
+- !private ["So23LDKRecoverableSignatureV", "serialized_form"]
+- !private ["So12LDKSecretKeyV", "bytes"]
+- !private ["So12LDKSecretKeyV", "init"]
+- !private ["So12LDKSignatureV", "compact_form"]
+- !private ["So12LDKSignatureV", "init"]
+- !private ["So15LDKSixteenBytesV", "data"]
+- !private ["So15LDKSixteenBytesV", "init"]
+- !private ["So6LDKStrV", "chars"]
+- !private ["So6LDKStrV", "init"]
+- !private ["So6LDKStrV", "len"]
+- !private ["So11LDKTenBytesV", "data"]
+- !private ["So11LDKTenBytesV", "init"]
+- !private ["So17LDKThirtyTwoBytesV", "data"]
+- !private ["So17LDKThirtyTwoBytesV", "init"]
+- !private ["So13LDKThreeBytesV", "data"]
+- !private ["So13LDKThreeBytesV", "init"]
+- !private ["So14LDKTransactionV", "data"]
+- !private ["So14LDKTransactionV", "datalen"]
+- !private ["So14LDKTransactionV", "init"]
+- !private ["So14LDKTwentyBytesV", "data"]
+- !private ["So14LDKTwentyBytesV", "init"]
+- !private ["So8LDKTxOutV", "script_pubkey"]
+- !private ["So8LDKTxOutV", "value"]
+- !private ["So10LDKu8sliceV", "data"]
+- !private ["So10LDKu8sliceV", "datalen"]
+- !private ["So10LDKu8sliceV", "init"]
+- !private ["17LDKExperimentTest6LoggerC", "cOpaqueStruct"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "utf8CString"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "utf8CString"]
+- !private ["SM", ""]
+- !private ["SM", "allocate"]
+- !private ["SM", "append"]
+- !private ["SM", "baseAddress"]
+- !private ["SM", "copyBytes"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "initialize"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "copyBytes"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "utf8CString"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "utf8CString"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderReadingP", "utf8CString"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So21NSItemProviderWritingP", "utf8CString"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So16NSMutableCopyingP", "utf8CString"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "callStackSymbols"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataUsingEncoding"]
+- !private ["So8NSObjectC", "utf8CString"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "callStackSymbols"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataUsingEncoding"]
+- !private ["So8NSObjectP", "utf8CString"]
+- !private ["So19NSPasteboardReadingP", "count"]
+- !private ["So19NSPasteboardReadingP", "data"]
+- !private ["So19NSPasteboardReadingP", "utf8CString"]
+- !private ["So19NSPasteboardWritingP", "count"]
+- !private ["So19NSPasteboardWritingP", "data"]
+- !private ["So19NSPasteboardWritingP", "utf8CString"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "utf8CString"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "data"]
+- !private ["So8NSStringC", "utf8CString"]
+- !private ["17LDKExperimentTest12NetworkGraphC", "cOpaqueStruct"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["17LDKExperimentTest11Option_u64ZC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest11Option_u64ZC", "init"]
+- !private ["Sq", "subscript"]
+- !private ["Sk", ""]
+- !private ["Sk", "allocate"]
+- !private ["Sk", "append"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "copyBytes"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "initialize"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "copyBytes"]
+- !private ["Sm", "count"]
+- !private ["Sm", "data"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "utf8CString"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "copyBytes"]
+- !private ["17LDKExperimentTest51Result_C2Tuple_BlockHashChannelManagerZDecodeErrorZC", "init"]
+- !private ["17LDKExperimentTest51Result_C2Tuple_BlockHashChannelMonitorZDecodeErrorZC", "init"]
+- !private ["17LDKExperimentTest40Result_CResult_NetAddressu8ZDecodeErrorZC", "init"]
+- !private ["17LDKExperimentTest34Result_InvoiceSignOrCreationErrorZC", "init"]
+- !private ["17LDKExperimentTest22Result_PublicKeyErrorZC", "init"]
+- !private ["17LDKExperimentTest27Result_RouteLightningErrorZC", "init"]
+- !private ["17LDKExperimentTest22Result_SecretKeyErrorZC", "init"]
+- !private ["17LDKExperimentTest19Result_StringErrorZC", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "allocate"]
+- !private ["ST", "append"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "copyBytes"]
+- !private ["ST", "count"]
+- !private ["ST", "data"]
+- ["ST", "init"]
+- !private ["ST", "initialize"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "subscript"]
+- !private ["ST", "utf8CString"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "debugDescription"]
+- !private ["Sx", "init"]
+- !private ["Sx", "initialize"]
+- !private ["Sx", "subscript"]
+- !private ["SS", "count"]
+- !private ["SS", "data"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8CString"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "count"]
+- !private ["Sy", "data"]
+- !private ["Sy", "init"]
+- !private ["Sy", "utf8CString"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "utf8CString"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "utf8CString"]
+- !private ["So8NSThreadC", "callStackSymbols"]
+- !private ["17LDKExperimentTest14TxCreationKeysC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest5TxOutC", "Bindings"]
+- ["17LDKExperimentTest5TxOutC", "LDKTxOut"]
+- ["17LDKExperimentTest5TxOutC", "UInt64"]
+- ["17LDKExperimentTest5TxOutC", "UInt8"]
+- ["17LDKExperimentTest5TxOutC", "cOpaqueStruct"]
+- ["17LDKExperimentTest5TxOutC", "deinit"]
+- ["17LDKExperimentTest5TxOutC", "getScriptPubkey"]
+- ["17LDKExperimentTest5TxOutC", "getValue"]
+- ["17LDKExperimentTest5TxOutC", "init"]
+- !private ["Su", "init"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["Sr", "allocate"]
+- !private ["Sr", "baseAddress"]
+- !private ["Sr", "initialize"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "initialize"]
+- !private ["Sp", "subscript"]
+- !private ["Sv", "debugDescription"]
+- !private ["SP", "init"]
+- !private ["SP", "subscript"]
+- !private ["SV", "debugDescription"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "debugDescription"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "utf8CString"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8CString"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8CString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8CString"]
+- !private ["s19_HasContiguousBytesP", "allocate"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "initialize"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "utf8CString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8CString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "callStackSymbols"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8CString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "callStackSymbols"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "utf8CString"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "copyBytes"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8CString"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "debugDescription"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "initialize"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["So13CKRecordValueP", "count"]
+- !private ["So13CKRecordValueP", "data"]
+- !private ["So13CKRecordValueP", "utf8CString"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- "17LDKExperimentTest8BindingsC"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "17LDKExperimentTest14ChannelManagerC"
+- !private "17LDKExperimentTest22ChannelManagerReadArgsC"
+- "Sl"
+- !private "SL"
+- !private "s15ContiguousArrayV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "17LDKExperimentTest22HTLCOutputInCommitmentC"
+- "SH"
+- "17LDKExperimentTest22InstanceCrashSimulatorC"
+- !private "Si"
+- !private "17LDKExperimentTest15InvoiceFeaturesC"
+- !private "17LDKExperimentTest13KeysInterfaceC"
+- !private "So17LDKCVec_APIErrorZV"
+- !private "So41LDKCVec_C2Tuple_BlockHashChannelMonitorZZV"
+- !private "So025LDKCVec_C2Tuple_TxidCVec_bC14_u32ScriptZZZZV"
+- !private "So27LDKCVec_C2Tuple_u32ScriptZZV"
+- !private "So26LDKCVec_C2Tuple_u32TxOutZZV"
+- !private "So34LDKCVec_C2Tuple_usizeTransactionZZV"
+- !private "So035LDKCVec_C3Tuple_ChannelAnnouncementd6UpdatedF2ZZV"
+- !private "So30LDKCVec_CResult_NoneAPIErrorZZV"
+- !private "So23LDKCVec_CVec_RouteHopZZV"
+- !private "So17LDKCVec_CVec_u8ZZV"
+- !private "So23LDKCVec_ChannelDetailsZV"
+- !private "So23LDKCVec_ChannelMonitorZV"
+- !private "So14LDKCVec_EventZV"
+- !private "So25LDKCVec_MessageSendEventZV"
+- !private "So21LDKCVec_MonitorEventZV"
+- !private "So19LDKCVec_NetAddressZV"
+- !private "So25LDKCVec_NodeAnnouncementZV"
+- !private "So21LDKCVec_PrivateRouteZV"
+- !private "So18LDKCVec_PublicKeyZV"
+- !private "So18LDKCVec_RouteHintZV"
+- !private "So17LDKCVec_RouteHopZV"
+- !private "So18LDKCVec_SignatureZV"
+- !private "So34LDKCVec_SpendableOutputDescriptorZV"
+- !private "So27LDKCVec_TransactionOutputsZV"
+- !private "So20LDKCVec_TransactionZV"
+- !private "So14LDKCVec_TxOutZV"
+- !private "So13LDKCVec_TxidZV"
+- !private "So22LDKCVec_UpdateAddHTLCZV"
+- !private "So23LDKCVec_UpdateFailHTLCZV"
+- !private "So32LDKCVec_UpdateFailMalformedHTLCZV"
+- !private "So26LDKCVec_UpdateFulfillHTLCZV"
+- !private "So12LDKCVec_u64ZV"
+- !private "So11LDKCVec_u8ZV"
+- !private "So12LDKFourBytesV"
+- !private "So12LDKPublicKeyV"
+- !private "So23LDKRecoverableSignatureV"
+- !private "So12LDKSecretKeyV"
+- !private "So12LDKSignatureV"
+- !private "So15LDKSixteenBytesV"
+- !private "So6LDKStrV"
+- !private "So11LDKTenBytesV"
+- !private "So17LDKThirtyTwoBytesV"
+- !private "So13LDKThreeBytesV"
+- !private "So14LDKTransactionV"
+- !private "So14LDKTwentyBytesV"
+- !private "So8LDKTxOutV"
+- !private "So10LDKu8sliceV"
+- !private "17LDKExperimentTest6LoggerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "17LDKExperimentTest12NetworkGraphC"
+- !private "Sj"
+- !private "17LDKExperimentTest11Option_u64ZC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "17LDKExperimentTest51Result_C2Tuple_BlockHashChannelManagerZDecodeErrorZC"
+- !private "17LDKExperimentTest51Result_C2Tuple_BlockHashChannelMonitorZDecodeErrorZC"
+- !private "17LDKExperimentTest40Result_CResult_NetAddressu8ZDecodeErrorZC"
+- !private "17LDKExperimentTest34Result_InvoiceSignOrCreationErrorZC"
+- !private "17LDKExperimentTest22Result_PublicKeyErrorZC"
+- !private "17LDKExperimentTest27Result_RouteLightningErrorZC"
+- !private "17LDKExperimentTest22Result_SecretKeyErrorZC"
+- !private "17LDKExperimentTest19Result_StringErrorZC"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So8NSThreadC"
+- !private "17LDKExperimentTest14TxCreationKeysC"
+- "17LDKExperimentTest5TxOutC"
+- !private "Su"
+- !private "s9UnmanagedV"
+- !private "Sr"
+- !private "Sp"
+- !private "Sv"
+- !private "SP"
+- !private "SV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/Build/Products/Debug/LDKMacConsumerExperiment.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "087d1055870e627d5173bf2fb19dfe6c"

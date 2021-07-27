@@ -1,0 +1,188 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RouteHintHop"
+provides-nominal:
+- "24LDKMacConsumerExperiment12RouteHintHopC"
+provides-member:
+- ["24LDKMacConsumerExperiment12RouteHintHopC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "clone"
+- "eq"
+- "get_cltv_expiry_delta"
+- "get_fees"
+- "get_htlc_maximum_msat"
+- "get_htlc_minimum_msat"
+- "get_short_channel_id"
+- "get_src_node_id"
+- "set_cltv_expiry_delta"
+- "set_fees"
+- "set_htlc_maximum_msat"
+- "set_htlc_minimum_msat"
+- "set_short_channel_id"
+- "set_src_node_id"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bindings"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LDKRouteHintHop"
+- "Option_u64Z"
+- "RouteHintHop"
+- "RouteHintHop_clone"
+- "RouteHintHop_eq"
+- !private "RouteHintHop_free"
+- "RouteHintHop_get_cltv_expiry_delta"
+- "RouteHintHop_get_fees"
+- "RouteHintHop_get_htlc_maximum_msat"
+- "RouteHintHop_get_htlc_minimum_msat"
+- "RouteHintHop_get_short_channel_id"
+- "RouteHintHop_get_src_node_id"
+- !private "RouteHintHop_new"
+- !private "RouteHintHop_set_cltv_expiry_delta"
+- !private "RouteHintHop_set_fees"
+- !private "RouteHintHop_set_htlc_maximum_msat"
+- !private "RouteHintHop_set_htlc_minimum_msat"
+- !private "RouteHintHop_set_short_channel_id"
+- !private "RouteHintHop_set_src_node_id"
+- "RoutingFees"
+- "UInt16"
+- "UInt64"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- "Void"
+- "withUnsafePointer"
+depends-member:
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKPublicKey_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKPublicKey"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["SL", ""]
+- !private ["SL", "allocate"]
+- !private ["SL", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["SQ", ""]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "initialize"]
+- !private ["SH", ""]
+- !private ["SH", "allocate"]
+- !private ["SH", "initialize"]
+- !private ["So15LDKRouteHintHopV", "is_owned"]
+- !private ["24LDKMacConsumerExperiment11Option_u64ZC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment11Option_u64ZC", "init"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "Bindings"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "Bool"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "LDKRouteHintHop"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "Option_u64Z"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_clone"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_eq"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_free"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_get_cltv_expiry_delta"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_get_fees"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_get_htlc_maximum_msat"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_get_htlc_minimum_msat"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_get_short_channel_id"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_get_src_node_id"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_new"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_set_cltv_expiry_delta"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_set_fees"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_set_htlc_maximum_msat"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_set_htlc_minimum_msat"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_set_short_channel_id"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "RouteHintHop_set_src_node_id"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "RoutingFees"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "UInt16"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "UInt64"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "UInt8"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "UnsafeMutablePointer"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "UnsafePointer"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "Void"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "clone"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "deinit"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "eq"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "get_cltv_expiry_delta"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "get_fees"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "get_htlc_maximum_msat"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "get_htlc_minimum_msat"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "get_short_channel_id"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "get_src_node_id"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "init"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "set_cltv_expiry_delta"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "set_fees"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "set_htlc_maximum_msat"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "set_htlc_minimum_msat"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "set_short_channel_id"]
+- ["24LDKMacConsumerExperiment12RouteHintHopC", "set_src_node_id"]
+- !private ["24LDKMacConsumerExperiment12RouteHintHopC", "withUnsafePointer"]
+- !private ["24LDKMacConsumerExperiment11RoutingFeesC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment11RoutingFeesC", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "initialize"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "initialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "initialize"]
+depends-nominal:
+- !private "24LDKMacConsumerExperiment8BindingsC"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "SQ"
+- !private "SH"
+- !private "So15LDKRouteHintHopV"
+- !private "24LDKMacConsumerExperiment11Option_u64ZC"
+- "24LDKMacConsumerExperiment12RouteHintHopC"
+- !private "24LDKMacConsumerExperiment11RoutingFeesC"
+- !private "Sx"
+- !private "Sp"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d36381b3d5be5149932567eba4b19395"

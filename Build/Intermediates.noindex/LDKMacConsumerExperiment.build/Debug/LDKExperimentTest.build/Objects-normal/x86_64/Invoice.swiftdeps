@@ -1,0 +1,244 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Invoice"
+provides-nominal:
+- "17LDKExperimentTest7InvoiceC"
+provides-member:
+- ["17LDKExperimentTest7InvoiceC", ""]
+provides-dynamic-lookup:
+- "amount_pico_btc"
+- "cOpaqueStruct"
+- "check_signature"
+- "clone"
+- "currency"
+- "eq"
+- "expiry_time"
+- "features"
+- "from_signed"
+- "from_str"
+- "into_signed_raw"
+- "min_final_cltv_expiry"
+- "payee_pub_key"
+- "payment_hash"
+- "payment_secret"
+- "private_routes"
+- "recover_payee_pub_key"
+- "route_hints"
+- "timestamp"
+- "to_str"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bindings"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Invoice"
+- "InvoiceFeatures"
+- "Invoice_amount_pico_btc"
+- "Invoice_check_signature"
+- "Invoice_clone"
+- "Invoice_currency"
+- "Invoice_eq"
+- "Invoice_expiry_time"
+- "Invoice_features"
+- !private "Invoice_free"
+- !private "Invoice_from_signed"
+- !private "Invoice_from_str"
+- !private "Invoice_into_signed_raw"
+- "Invoice_min_final_cltv_expiry"
+- "Invoice_payee_pub_key"
+- "Invoice_payment_hash"
+- "Invoice_payment_secret"
+- "Invoice_private_routes"
+- "Invoice_recover_payee_pub_key"
+- "Invoice_route_hints"
+- "Invoice_timestamp"
+- "Invoice_to_str"
+- "LDKCurrency"
+- "LDKInvoice"
+- "LDKPrivateRoute"
+- "LDKRouteHint"
+- "Option_u64Z"
+- "Result_InvoiceNoneZ"
+- "Result_InvoiceSemanticErrorZ"
+- "Result_NoneSemanticErrorZ"
+- "SignedRawInvoice"
+- "String"
+- "UInt64"
+- "UInt8"
+- "UnsafePointer"
+- "withUnsafePointer"
+depends-member:
+- !private ["17LDKExperimentTest8BindingsC", "LDKCVec_PrivateRouteZ_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKCVec_RouteHintZ_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKPublicKey_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKStr_to_string"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKThirtyTwoBytes_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKStr"]
+- !private ["17LDKExperimentTest8BindingsC", "tuple32_to_array"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["SL", ""]
+- !private ["SL", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["Se", "pointee"]
+- !private ["SE", "pointee"]
+- !private ["SQ", ""]
+- !private ["SQ", "pointee"]
+- !private ["s23ExpressibleByNilLiteralP", "pointee"]
+- !private ["SH", ""]
+- !private ["SH", "pointee"]
+- !private ["17LDKExperimentTest7InvoiceC", "Bindings"]
+- ["17LDKExperimentTest7InvoiceC", "Bool"]
+- ["17LDKExperimentTest7InvoiceC", "Invoice"]
+- ["17LDKExperimentTest7InvoiceC", "InvoiceFeatures"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_amount_pico_btc"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_check_signature"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_clone"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_currency"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_eq"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_expiry_time"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_features"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_free"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_from_signed"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_from_str"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_into_signed_raw"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_min_final_cltv_expiry"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_payee_pub_key"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_payment_hash"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_payment_secret"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_private_routes"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_recover_payee_pub_key"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_route_hints"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_timestamp"]
+- !private ["17LDKExperimentTest7InvoiceC", "Invoice_to_str"]
+- ["17LDKExperimentTest7InvoiceC", "LDKCurrency"]
+- ["17LDKExperimentTest7InvoiceC", "LDKInvoice"]
+- ["17LDKExperimentTest7InvoiceC", "LDKPrivateRoute"]
+- ["17LDKExperimentTest7InvoiceC", "LDKRouteHint"]
+- ["17LDKExperimentTest7InvoiceC", "Option_u64Z"]
+- ["17LDKExperimentTest7InvoiceC", "Result_InvoiceNoneZ"]
+- ["17LDKExperimentTest7InvoiceC", "Result_InvoiceSemanticErrorZ"]
+- ["17LDKExperimentTest7InvoiceC", "Result_NoneSemanticErrorZ"]
+- ["17LDKExperimentTest7InvoiceC", "SignedRawInvoice"]
+- ["17LDKExperimentTest7InvoiceC", "String"]
+- ["17LDKExperimentTest7InvoiceC", "UInt64"]
+- ["17LDKExperimentTest7InvoiceC", "UInt8"]
+- !private ["17LDKExperimentTest7InvoiceC", "UnsafePointer"]
+- ["17LDKExperimentTest7InvoiceC", "amount_pico_btc"]
+- ["17LDKExperimentTest7InvoiceC", "cOpaqueStruct"]
+- ["17LDKExperimentTest7InvoiceC", "check_signature"]
+- ["17LDKExperimentTest7InvoiceC", "clone"]
+- ["17LDKExperimentTest7InvoiceC", "currency"]
+- ["17LDKExperimentTest7InvoiceC", "deinit"]
+- ["17LDKExperimentTest7InvoiceC", "eq"]
+- ["17LDKExperimentTest7InvoiceC", "expiry_time"]
+- ["17LDKExperimentTest7InvoiceC", "features"]
+- ["17LDKExperimentTest7InvoiceC", "from_signed"]
+- ["17LDKExperimentTest7InvoiceC", "from_str"]
+- ["17LDKExperimentTest7InvoiceC", "init"]
+- ["17LDKExperimentTest7InvoiceC", "into_signed_raw"]
+- ["17LDKExperimentTest7InvoiceC", "min_final_cltv_expiry"]
+- ["17LDKExperimentTest7InvoiceC", "payee_pub_key"]
+- ["17LDKExperimentTest7InvoiceC", "payment_hash"]
+- ["17LDKExperimentTest7InvoiceC", "payment_secret"]
+- ["17LDKExperimentTest7InvoiceC", "private_routes"]
+- ["17LDKExperimentTest7InvoiceC", "recover_payee_pub_key"]
+- ["17LDKExperimentTest7InvoiceC", "route_hints"]
+- ["17LDKExperimentTest7InvoiceC", "timestamp"]
+- ["17LDKExperimentTest7InvoiceC", "to_str"]
+- !private ["17LDKExperimentTest7InvoiceC", "withUnsafePointer"]
+- !private ["17LDKExperimentTest15InvoiceFeaturesC", "init"]
+- !private ["So10LDKInvoiceV", "is_owned"]
+- !private ["17LDKExperimentTest11Option_u64ZC", "init"]
+- !private ["Sq", "pointee"]
+- !private ["17LDKExperimentTest19Result_InvoiceNoneZC", "init"]
+- !private ["17LDKExperimentTest28Result_InvoiceSemanticErrorZC", "init"]
+- !private ["17LDKExperimentTest25Result_NoneSemanticErrorZC", "init"]
+- !private ["17LDKExperimentTest16SignedRawInvoiceC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest16SignedRawInvoiceC", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "pointee"]
+- !private ["SP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pointee"]
+- !private ["s8_PointerP", "pointee"]
+depends-nominal:
+- !private "17LDKExperimentTest8BindingsC"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- "17LDKExperimentTest7InvoiceC"
+- !private "17LDKExperimentTest15InvoiceFeaturesC"
+- !private "So10LDKInvoiceV"
+- !private "17LDKExperimentTest11Option_u64ZC"
+- !private "Sq"
+- !private "17LDKExperimentTest19Result_InvoiceNoneZC"
+- !private "17LDKExperimentTest28Result_InvoiceSemanticErrorZC"
+- !private "17LDKExperimentTest25Result_NoneSemanticErrorZC"
+- !private "17LDKExperimentTest16SignedRawInvoiceC"
+- !private "Sx"
+- !private "SP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/Build/Products/Debug/LDKMacConsumerExperiment.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "89ce6cba7f83a3c40fd0ca528fb6cdc7"

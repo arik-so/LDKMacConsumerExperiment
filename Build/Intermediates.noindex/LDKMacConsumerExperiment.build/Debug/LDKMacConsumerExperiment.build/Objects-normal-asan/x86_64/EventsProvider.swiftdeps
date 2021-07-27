@@ -1,0 +1,117 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EventsProvider"
+- "NativelyImplementedEventsProvider"
+provides-nominal:
+- "24LDKMacConsumerExperiment14EventsProviderC"
+- "24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC"
+provides-member:
+- ["24LDKMacConsumerExperiment14EventsProviderC", ""]
+- ["24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "free"
+- "process_pending_events"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Bindings"
+- "EventHandler"
+- "EventsProvider"
+- "LDKEventHandler"
+- "LDKEventsProvider"
+- "NativelyImplementedEventsProvider"
+- !private "StringLiteralType"
+- "UnsafeMutableRawPointer"
+- "UnsafeRawPointer"
+- "Void"
+- !private "freeCallback"
+- !private "process_pending_eventsCallback"
+depends-member:
+- !private ["24LDKMacConsumerExperiment8BindingsC", "instanceToPointer"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "pointerToInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["Se", "callAsFunction"]
+- !private ["SE", "callAsFunction"]
+- !private ["SQ", ""]
+- !private ["SQ", "callAsFunction"]
+- !private ["24LDKMacConsumerExperiment12EventHandlerC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment12EventHandlerC", "init"]
+- !private ["24LDKMacConsumerExperiment14EventsProviderC", "Bindings"]
+- ["24LDKMacConsumerExperiment14EventsProviderC", "EventHandler"]
+- !private ["24LDKMacConsumerExperiment14EventsProviderC", "EventsProvider"]
+- !private ["24LDKMacConsumerExperiment14EventsProviderC", "LDKEventHandler"]
+- ["24LDKMacConsumerExperiment14EventsProviderC", "LDKEventsProvider"]
+- !private ["24LDKMacConsumerExperiment14EventsProviderC", "UnsafeMutableRawPointer"]
+- !private ["24LDKMacConsumerExperiment14EventsProviderC", "UnsafeRawPointer"]
+- ["24LDKMacConsumerExperiment14EventsProviderC", "Void"]
+- ["24LDKMacConsumerExperiment14EventsProviderC", ""]
+- ["24LDKMacConsumerExperiment14EventsProviderC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment14EventsProviderC", "deinit"]
+- ["24LDKMacConsumerExperiment14EventsProviderC", "free"]
+- !private ["24LDKMacConsumerExperiment14EventsProviderC", "freeCallback"]
+- ["24LDKMacConsumerExperiment14EventsProviderC", "init"]
+- ["24LDKMacConsumerExperiment14EventsProviderC", "process_pending_events"]
+- !private ["24LDKMacConsumerExperiment14EventsProviderC", "process_pending_eventsCallback"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["SH", "callAsFunction"]
+- !private ["So17LDKEventsProviderV", "free"]
+- !private ["So17LDKEventsProviderV", "init"]
+- !private ["So17LDKEventsProviderV", "process_pending_events"]
+- !private ["So17LDKEventsProviderV", "this_arg"]
+- ["24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC", "EventHandler"]
+- ["24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC", "Void"]
+- !private ["24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC", "deinit"]
+- ["24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC", "free"]
+- ["24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC", "init"]
+- ["24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC", "process_pending_events"]
+- !private ["Sq", "callAsFunction"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+depends-nominal:
+- !private "24LDKMacConsumerExperiment8BindingsC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "24LDKMacConsumerExperiment12EventHandlerC"
+- "24LDKMacConsumerExperiment14EventsProviderC"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "So17LDKEventsProviderV"
+- "24LDKMacConsumerExperiment33NativelyImplementedEventsProviderC"
+- !private "Sq"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1b18a01e4b1288d1157b8b199901e418"

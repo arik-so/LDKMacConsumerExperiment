@@ -1,0 +1,310 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Event"
+provides-nominal:
+- "17LDKExperimentTest5EventC"
+- "17LDKExperimentTest5EventC0C9ValueTypeO"
+- "17LDKExperimentTest5EventC22FundingGenerationReadyC"
+- "17LDKExperimentTest5EventC15PaymentReceivedC"
+- "17LDKExperimentTest5EventC11PaymentSentC"
+- "17LDKExperimentTest5EventC13PaymentFailedC"
+- "17LDKExperimentTest5EventC23PendingHTLCsForwardableC"
+- "17LDKExperimentTest5EventC16SpendableOutputsC"
+provides-member:
+- ["17LDKExperimentTest5EventC", ""]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", ""]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", ""]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", ""]
+- ["17LDKExperimentTest5EventC11PaymentSentC", ""]
+- ["17LDKExperimentTest5EventC13PaymentFailedC", ""]
+- ["17LDKExperimentTest5EventC23PendingHTLCsForwardableC", ""]
+- ["17LDKExperimentTest5EventC16SpendableOutputsC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "getAmt"
+- "getChannel_value_satoshis"
+- "getOutput_script"
+- "getOutputs"
+- "getPayment_hash"
+- "getPayment_preimage"
+- "getPayment_secret"
+- "getRejected_by_dest"
+- "getTemporary_channel_id"
+- "getTime_forwardable"
+- "getUser_channel_id"
+- "getUser_payment_id"
+- "getValueAsFundingGenerationReady"
+- "getValueAsPaymentFailed"
+- "getValueAsPaymentReceived"
+- "getValueAsPaymentSent"
+- "getValueAsPendingHTLCsForwardable"
+- "getValueAsSpendableOutputs"
+- "getValueType"
+depends-top-level:
+- !private "!="
+- "=="
+- "AssignmentPrecedence"
+- !private "Bindings"
+- "Bool"
+- "Event"
+- "EventValueType"
+- !private "FloatLiteralType"
+- "FundingGenerationReady"
+- !private "IntegerLiteralType"
+- "LDKEvent"
+- !private "LDKEvent_FundingGenerationReady"
+- "LDKEvent_LDKFundingGenerationReady_Body"
+- "LDKEvent_LDKPaymentFailed_Body"
+- "LDKEvent_LDKPaymentReceived_Body"
+- "LDKEvent_LDKPaymentSent_Body"
+- "LDKEvent_LDKPendingHTLCsForwardable_Body"
+- "LDKEvent_LDKSpendableOutputs_Body"
+- !private "LDKEvent_PaymentFailed"
+- !private "LDKEvent_PaymentReceived"
+- !private "LDKEvent_PaymentSent"
+- !private "LDKEvent_PendingHTLCsForwardable"
+- !private "LDKEvent_SpendableOutputs"
+- "LDKSpendableOutputDescriptor"
+- "PaymentFailed"
+- "PaymentReceived"
+- "PaymentSent"
+- "PendingHTLCsForwardable"
+- "SpendableOutputs"
+- "UInt64"
+- "UInt8"
+depends-member:
+- !private ["17LDKExperimentTest8BindingsC", "LDKCVec_u8Z_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKThirtyTwoBytes_to_array"]
+- !private ["s28CustomDebugStringConvertibleP", "FundingGenerationReady"]
+- !private ["s28CustomDebugStringConvertibleP", "PaymentFailed"]
+- !private ["s28CustomDebugStringConvertibleP", "PaymentReceived"]
+- !private ["s28CustomDebugStringConvertibleP", "PaymentSent"]
+- !private ["s28CustomDebugStringConvertibleP", "PendingHTLCsForwardable"]
+- !private ["s28CustomDebugStringConvertibleP", "SpendableOutputs"]
+- !private ["s17CustomReflectableP", "FundingGenerationReady"]
+- !private ["s17CustomReflectableP", "PaymentFailed"]
+- !private ["s17CustomReflectableP", "PaymentReceived"]
+- !private ["s17CustomReflectableP", "PaymentSent"]
+- !private ["s17CustomReflectableP", "PendingHTLCsForwardable"]
+- !private ["s17CustomReflectableP", "SpendableOutputs"]
+- !private ["Se", "FundingGenerationReady"]
+- !private ["Se", "PaymentFailed"]
+- !private ["Se", "PaymentReceived"]
+- !private ["Se", "PaymentSent"]
+- !private ["Se", "PendingHTLCsForwardable"]
+- !private ["Se", "SpendableOutputs"]
+- !private ["SE", "FundingGenerationReady"]
+- !private ["SE", "PaymentFailed"]
+- !private ["SE", "PaymentReceived"]
+- !private ["SE", "PaymentSent"]
+- !private ["SE", "PendingHTLCsForwardable"]
+- !private ["SE", "SpendableOutputs"]
+- ["SQ", "=="]
+- !private ["SQ", "FundingGenerationReady"]
+- !private ["SQ", "PaymentFailed"]
+- !private ["SQ", "PaymentReceived"]
+- !private ["SQ", "PaymentSent"]
+- !private ["SQ", "PendingHTLCsForwardable"]
+- !private ["SQ", "SpendableOutputs"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["17LDKExperimentTest5EventC", "Bindings"]
+- ["17LDKExperimentTest5EventC", "Bool"]
+- ["17LDKExperimentTest5EventC", "EventValueType"]
+- ["17LDKExperimentTest5EventC", "FundingGenerationReady"]
+- ["17LDKExperimentTest5EventC", "LDKEvent"]
+- !private ["17LDKExperimentTest5EventC", "LDKEvent_FundingGenerationReady"]
+- ["17LDKExperimentTest5EventC", "LDKEvent_LDKFundingGenerationReady_Body"]
+- ["17LDKExperimentTest5EventC", "LDKEvent_LDKPaymentFailed_Body"]
+- ["17LDKExperimentTest5EventC", "LDKEvent_LDKPaymentReceived_Body"]
+- ["17LDKExperimentTest5EventC", "LDKEvent_LDKPaymentSent_Body"]
+- ["17LDKExperimentTest5EventC", "LDKEvent_LDKPendingHTLCsForwardable_Body"]
+- ["17LDKExperimentTest5EventC", "LDKEvent_LDKSpendableOutputs_Body"]
+- !private ["17LDKExperimentTest5EventC", "LDKEvent_PaymentFailed"]
+- !private ["17LDKExperimentTest5EventC", "LDKEvent_PaymentReceived"]
+- !private ["17LDKExperimentTest5EventC", "LDKEvent_PaymentSent"]
+- !private ["17LDKExperimentTest5EventC", "LDKEvent_PendingHTLCsForwardable"]
+- !private ["17LDKExperimentTest5EventC", "LDKEvent_SpendableOutputs"]
+- ["17LDKExperimentTest5EventC", "LDKSpendableOutputDescriptor"]
+- ["17LDKExperimentTest5EventC", "PaymentFailed"]
+- ["17LDKExperimentTest5EventC", "PaymentReceived"]
+- ["17LDKExperimentTest5EventC", "PaymentSent"]
+- ["17LDKExperimentTest5EventC", "PendingHTLCsForwardable"]
+- ["17LDKExperimentTest5EventC", "SpendableOutputs"]
+- ["17LDKExperimentTest5EventC", "UInt64"]
+- ["17LDKExperimentTest5EventC", "UInt8"]
+- ["17LDKExperimentTest5EventC", "cOpaqueStruct"]
+- ["17LDKExperimentTest5EventC", "deinit"]
+- ["17LDKExperimentTest5EventC", "getValueAsFundingGenerationReady"]
+- ["17LDKExperimentTest5EventC", "getValueAsPaymentFailed"]
+- ["17LDKExperimentTest5EventC", "getValueAsPaymentReceived"]
+- ["17LDKExperimentTest5EventC", "getValueAsPaymentSent"]
+- ["17LDKExperimentTest5EventC", "getValueAsPendingHTLCsForwardable"]
+- ["17LDKExperimentTest5EventC", "getValueAsSpendableOutputs"]
+- ["17LDKExperimentTest5EventC", "getValueType"]
+- ["17LDKExperimentTest5EventC", "init"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "=="]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "FundingGenerationReady"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "PaymentFailed"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "PaymentReceived"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "PaymentSent"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "PendingHTLCsForwardable"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "SpendableOutputs"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", ""]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "__derived_enum_equals"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "_rawHashValue"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "hash"]
+- ["17LDKExperimentTest5EventC0C9ValueTypeO", "hashValue"]
+- !private ["s23ExpressibleByNilLiteralP", "FundingGenerationReady"]
+- !private ["s23ExpressibleByNilLiteralP", "PaymentFailed"]
+- !private ["s23ExpressibleByNilLiteralP", "PaymentReceived"]
+- !private ["s23ExpressibleByNilLiteralP", "PaymentSent"]
+- !private ["s23ExpressibleByNilLiteralP", "PendingHTLCsForwardable"]
+- !private ["s23ExpressibleByNilLiteralP", "SpendableOutputs"]
+- !private ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "Bindings"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "LDKEvent_LDKFundingGenerationReady_Body"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "UInt64"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "UInt8"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "cOpaqueStruct"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "deinit"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "getChannel_value_satoshis"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "getOutput_script"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "getTemporary_channel_id"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "getUser_channel_id"]
+- ["17LDKExperimentTest5EventC22FundingGenerationReadyC", "init"]
+- ["SH", "=="]
+- !private ["SH", "FundingGenerationReady"]
+- !private ["SH", "PaymentFailed"]
+- !private ["SH", "PaymentReceived"]
+- !private ["SH", "PaymentSent"]
+- !private ["SH", "PendingHTLCsForwardable"]
+- !private ["SH", "SpendableOutputs"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["Sq", "FundingGenerationReady"]
+- !private ["Sq", "PaymentFailed"]
+- !private ["Sq", "PaymentReceived"]
+- !private ["Sq", "PaymentSent"]
+- !private ["Sq", "PendingHTLCsForwardable"]
+- !private ["Sq", "SpendableOutputs"]
+- !private ["17LDKExperimentTest5EventC13PaymentFailedC", "Bindings"]
+- ["17LDKExperimentTest5EventC13PaymentFailedC", "Bool"]
+- ["17LDKExperimentTest5EventC13PaymentFailedC", "LDKEvent_LDKPaymentFailed_Body"]
+- ["17LDKExperimentTest5EventC13PaymentFailedC", "UInt8"]
+- ["17LDKExperimentTest5EventC13PaymentFailedC", "cOpaqueStruct"]
+- ["17LDKExperimentTest5EventC13PaymentFailedC", "deinit"]
+- ["17LDKExperimentTest5EventC13PaymentFailedC", "getPayment_hash"]
+- ["17LDKExperimentTest5EventC13PaymentFailedC", "getRejected_by_dest"]
+- ["17LDKExperimentTest5EventC13PaymentFailedC", "init"]
+- !private ["17LDKExperimentTest5EventC15PaymentReceivedC", "Bindings"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "LDKEvent_LDKPaymentReceived_Body"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "UInt64"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "UInt8"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "cOpaqueStruct"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "deinit"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "getAmt"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "getPayment_hash"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "getPayment_preimage"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "getPayment_secret"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "getUser_payment_id"]
+- ["17LDKExperimentTest5EventC15PaymentReceivedC", "init"]
+- !private ["17LDKExperimentTest5EventC11PaymentSentC", "Bindings"]
+- ["17LDKExperimentTest5EventC11PaymentSentC", "LDKEvent_LDKPaymentSent_Body"]
+- ["17LDKExperimentTest5EventC11PaymentSentC", "UInt8"]
+- ["17LDKExperimentTest5EventC11PaymentSentC", "cOpaqueStruct"]
+- ["17LDKExperimentTest5EventC11PaymentSentC", "deinit"]
+- ["17LDKExperimentTest5EventC11PaymentSentC", "getPayment_preimage"]
+- ["17LDKExperimentTest5EventC11PaymentSentC", "init"]
+- ["17LDKExperimentTest5EventC23PendingHTLCsForwardableC", "LDKEvent_LDKPendingHTLCsForwardable_Body"]
+- ["17LDKExperimentTest5EventC23PendingHTLCsForwardableC", "UInt64"]
+- ["17LDKExperimentTest5EventC23PendingHTLCsForwardableC", "cOpaqueStruct"]
+- ["17LDKExperimentTest5EventC23PendingHTLCsForwardableC", "deinit"]
+- ["17LDKExperimentTest5EventC23PendingHTLCsForwardableC", "getTime_forwardable"]
+- ["17LDKExperimentTest5EventC23PendingHTLCsForwardableC", "init"]
+- ["17LDKExperimentTest5EventC16SpendableOutputsC", "LDKEvent_LDKSpendableOutputs_Body"]
+- ["17LDKExperimentTest5EventC16SpendableOutputsC", "LDKSpendableOutputDescriptor"]
+- ["17LDKExperimentTest5EventC16SpendableOutputsC", "cOpaqueStruct"]
+- ["17LDKExperimentTest5EventC16SpendableOutputsC", "deinit"]
+- ["17LDKExperimentTest5EventC16SpendableOutputsC", "getOutputs"]
+- ["17LDKExperimentTest5EventC16SpendableOutputsC", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "FundingGenerationReady"]
+- !private ["s21_ObjectiveCBridgeableP", "PaymentFailed"]
+- !private ["s21_ObjectiveCBridgeableP", "PaymentReceived"]
+- !private ["s21_ObjectiveCBridgeableP", "PaymentSent"]
+- !private ["s21_ObjectiveCBridgeableP", "PendingHTLCsForwardable"]
+- !private ["s21_ObjectiveCBridgeableP", "SpendableOutputs"]
+depends-nominal:
+- !private "17LDKExperimentTest8BindingsC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "17LDKExperimentTest5EventC"
+- "17LDKExperimentTest5EventC0C9ValueTypeO"
+- !private "s23ExpressibleByNilLiteralP"
+- "17LDKExperimentTest5EventC22FundingGenerationReadyC"
+- "SH"
+- !private "s6HasherV"
+- !private "Sq"
+- "17LDKExperimentTest5EventC13PaymentFailedC"
+- "17LDKExperimentTest5EventC15PaymentReceivedC"
+- "17LDKExperimentTest5EventC11PaymentSentC"
+- "17LDKExperimentTest5EventC23PendingHTLCsForwardableC"
+- "17LDKExperimentTest5EventC16SpendableOutputsC"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/Build/Products/Debug/LDKMacConsumerExperiment.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a09a1bea9635c6ac0abbe3af2c7bf2c2"

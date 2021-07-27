@@ -1,0 +1,189 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InMemorySigner"
+provides-nominal:
+- "17LDKExperimentTest14InMemorySignerC"
+provides-member:
+- ["17LDKExperimentTest14InMemorySignerC", ""]
+provides-dynamic-lookup:
+- "as_BaseSign"
+- "as_Sign"
+- "cOpaqueStruct"
+- "clone"
+- "counterparty_pubkeys"
+- "counterparty_selected_contest_delay"
+- "funding_outpoint"
+- "get_channel_parameters"
+- "get_commitment_seed"
+- "get_delayed_payment_base_key"
+- "get_funding_key"
+- "get_htlc_base_key"
+- "get_payment_key"
+- "get_revocation_base_key"
+- "holder_selected_contest_delay"
+- "is_outbound"
+- "read"
+- "set_commitment_seed"
+- "set_delayed_payment_base_key"
+- "set_funding_key"
+- "set_htlc_base_key"
+- "set_payment_key"
+- "set_revocation_base_key"
+- "sign_counterparty_payment_input"
+- "sign_dynamic_p2wsh_input"
+- "write"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "BaseSign"
+- !private "Bindings"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ChannelPublicKeys"
+- "ChannelTransactionParameters"
+- "DelayedPaymentOutputDescriptor"
+- "InMemorySigner"
+- !private "InMemorySigner_free"
+- !private "InMemorySigner_new"
+- !private "InMemorySigner_read"
+- !private "InMemorySigner_set_commitment_seed"
+- !private "InMemorySigner_set_delayed_payment_base_key"
+- !private "InMemorySigner_set_funding_key"
+- !private "InMemorySigner_set_htlc_base_key"
+- !private "InMemorySigner_set_payment_key"
+- !private "InMemorySigner_set_revocation_base_key"
+- "LDKInMemorySigner"
+- !private "NativelyImplementedBaseSign"
+- !private "NativelyImplementedSign"
+- "OutPoint"
+- "Result_CVec_CVec_u8ZZNoneZ"
+- "Result_InMemorySignerDecodeErrorZ"
+- "Sign"
+- "StaticPaymentOutputDescriptor"
+- "UInt"
+- "UInt16"
+- "UInt64"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- "Void"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["17LDKExperimentTest8BindingsC", "LDKCVec_u8Z_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKSecretKey"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKThirtyTwoBytes"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKu8slice"]
+- !private ["17LDKExperimentTest8BindingsC", "tuple32_to_array"]
+- ["17LDKExperimentTest14InMemorySignerC", "BaseSign"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "Bindings"]
+- ["17LDKExperimentTest14InMemorySignerC", "Bool"]
+- ["17LDKExperimentTest14InMemorySignerC", "ChannelPublicKeys"]
+- ["17LDKExperimentTest14InMemorySignerC", "ChannelTransactionParameters"]
+- ["17LDKExperimentTest14InMemorySignerC", "DelayedPaymentOutputDescriptor"]
+- ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner_free"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner_new"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner_read"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner_set_commitment_seed"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner_set_delayed_payment_base_key"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner_set_funding_key"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner_set_htlc_base_key"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner_set_payment_key"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "InMemorySigner_set_revocation_base_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "LDKInMemorySigner"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "NativelyImplementedBaseSign"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "NativelyImplementedSign"]
+- ["17LDKExperimentTest14InMemorySignerC", "OutPoint"]
+- ["17LDKExperimentTest14InMemorySignerC", "Result_CVec_CVec_u8ZZNoneZ"]
+- ["17LDKExperimentTest14InMemorySignerC", "Result_InMemorySignerDecodeErrorZ"]
+- ["17LDKExperimentTest14InMemorySignerC", "Sign"]
+- ["17LDKExperimentTest14InMemorySignerC", "StaticPaymentOutputDescriptor"]
+- ["17LDKExperimentTest14InMemorySignerC", "UInt"]
+- ["17LDKExperimentTest14InMemorySignerC", "UInt16"]
+- ["17LDKExperimentTest14InMemorySignerC", "UInt64"]
+- ["17LDKExperimentTest14InMemorySignerC", "UInt8"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "UnsafeMutablePointer"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "UnsafePointer"]
+- ["17LDKExperimentTest14InMemorySignerC", "Void"]
+- ["17LDKExperimentTest14InMemorySignerC", "as_BaseSign"]
+- ["17LDKExperimentTest14InMemorySignerC", "as_Sign"]
+- ["17LDKExperimentTest14InMemorySignerC", "cOpaqueStruct"]
+- ["17LDKExperimentTest14InMemorySignerC", "clone"]
+- ["17LDKExperimentTest14InMemorySignerC", "counterparty_pubkeys"]
+- ["17LDKExperimentTest14InMemorySignerC", "counterparty_selected_contest_delay"]
+- ["17LDKExperimentTest14InMemorySignerC", "deinit"]
+- ["17LDKExperimentTest14InMemorySignerC", "funding_outpoint"]
+- ["17LDKExperimentTest14InMemorySignerC", "get_channel_parameters"]
+- ["17LDKExperimentTest14InMemorySignerC", "get_commitment_seed"]
+- ["17LDKExperimentTest14InMemorySignerC", "get_delayed_payment_base_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "get_funding_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "get_htlc_base_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "get_payment_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "get_revocation_base_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "holder_selected_contest_delay"]
+- ["17LDKExperimentTest14InMemorySignerC", "init"]
+- ["17LDKExperimentTest14InMemorySignerC", "is_outbound"]
+- ["17LDKExperimentTest14InMemorySignerC", "read"]
+- ["17LDKExperimentTest14InMemorySignerC", "set_commitment_seed"]
+- ["17LDKExperimentTest14InMemorySignerC", "set_delayed_payment_base_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "set_funding_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "set_htlc_base_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "set_payment_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "set_revocation_base_key"]
+- ["17LDKExperimentTest14InMemorySignerC", "sign_counterparty_payment_input"]
+- ["17LDKExperimentTest14InMemorySignerC", "sign_dynamic_p2wsh_input"]
+- !private ["17LDKExperimentTest14InMemorySignerC", "withUnsafePointer"]
+- ["17LDKExperimentTest14InMemorySignerC", "write"]
+- !private ["SY", "RawValue"]
+depends-nominal:
+- !private "17LDKExperimentTest8BindingsC"
+- "17LDKExperimentTest14InMemorySignerC"
+- !private "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/Build/Products/Debug/LDKMacConsumerExperiment.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "90a309df029e84fc0547c43986b1fd30"

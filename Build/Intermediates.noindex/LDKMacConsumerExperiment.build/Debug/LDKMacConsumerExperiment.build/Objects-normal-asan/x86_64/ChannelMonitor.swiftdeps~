@@ -1,0 +1,206 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChannelMonitor"
+provides-nominal:
+- "24LDKMacConsumerExperiment14ChannelMonitorC"
+provides-member:
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", ""]
+provides-dynamic-lookup:
+- "best_block_updated"
+- "block_connected"
+- "block_disconnected"
+- "cOpaqueStruct"
+- "clone"
+- "current_best_block"
+- "get_and_clear_pending_events"
+- "get_and_clear_pending_monitor_events"
+- "get_funding_txo"
+- "get_latest_holder_commitment_txn"
+- "get_latest_update_id"
+- "get_outputs_to_watch"
+- "get_relevant_txids"
+- "load_outputs_to_watch"
+- "transaction_unconfirmed"
+- "transactions_confirmed"
+- "update_monitor"
+- "write"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "BestBlock"
+- "Bindings"
+- !private "BooleanLiteralType"
+- "BroadcasterInterface"
+- "C2Tuple_OutPointScriptZ"
+- "ChannelMonitor"
+- "ChannelMonitorUpdate"
+- "ChannelMonitor_best_block_updated"
+- "ChannelMonitor_block_connected"
+- "ChannelMonitor_block_disconnected"
+- "ChannelMonitor_clone"
+- "ChannelMonitor_current_best_block"
+- !private "ChannelMonitor_free"
+- "ChannelMonitor_get_and_clear_pending_events"
+- "ChannelMonitor_get_and_clear_pending_monitor_events"
+- "ChannelMonitor_get_funding_txo"
+- "ChannelMonitor_get_latest_holder_commitment_txn"
+- "ChannelMonitor_get_latest_update_id"
+- "ChannelMonitor_get_outputs_to_watch"
+- "ChannelMonitor_get_relevant_txids"
+- "ChannelMonitor_load_outputs_to_watch"
+- "ChannelMonitor_transaction_unconfirmed"
+- "ChannelMonitor_transactions_confirmed"
+- "ChannelMonitor_update_monitor"
+- "ChannelMonitor_write"
+- "FeeEstimator"
+- "Filter"
+- "LDKBroadcasterInterface"
+- "LDKC2Tuple_TxidCVec_C2Tuple_u32ScriptZZZ"
+- "LDKC2Tuple_usizeTransactionZ"
+- "LDKChannelMonitor"
+- "LDKChannelMonitorUpdate"
+- "LDKEvent"
+- "LDKFeeEstimator"
+- "LDKFilter"
+- "LDKLogger"
+- "LDKMonitorEvent"
+- "LDKTransactionOutputs"
+- "LDKTxid"
+- "Logger"
+- "Result_NoneMonitorUpdateErrorZ"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "UnsafePointer"
+- "Void"
+- "withUnsafePointer"
+depends-member:
+- !private ["24LDKMacConsumerExperiment9BestBlockC", "init"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_C2Tuple_TxidCVec_C2Tuple_u32ScriptZZZZ_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_EventZ_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_MonitorEventZ_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_TransactionOutputsZ_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_TransactionZ_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_TxidZ_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_u8Z_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "array_to_tuple32"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "array_to_tuple80"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKCVec_C2Tuple_usizeTransactionZZ"]
+- !private ["24LDKMacConsumerExperiment20BroadcasterInterfaceC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment23C2Tuple_OutPointScriptZC", "init"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "BestBlock"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "Bindings"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "BroadcasterInterface"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "C2Tuple_OutPointScriptZ"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitorUpdate"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_best_block_updated"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_block_connected"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_block_disconnected"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_clone"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_current_best_block"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_free"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_get_and_clear_pending_events"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_get_and_clear_pending_monitor_events"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_get_funding_txo"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_get_latest_holder_commitment_txn"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_get_latest_update_id"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_get_outputs_to_watch"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_get_relevant_txids"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_load_outputs_to_watch"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_transaction_unconfirmed"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_transactions_confirmed"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_update_monitor"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "ChannelMonitor_write"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "FeeEstimator"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "Filter"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKBroadcasterInterface"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKC2Tuple_TxidCVec_C2Tuple_u32ScriptZZZ"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKC2Tuple_usizeTransactionZ"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKChannelMonitor"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKChannelMonitorUpdate"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKEvent"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKFeeEstimator"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKFilter"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKLogger"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKMonitorEvent"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKTransactionOutputs"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "LDKTxid"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "Logger"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "Result_NoneMonitorUpdateErrorZ"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "UInt32"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "UInt64"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "UInt8"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "UnsafePointer"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "Void"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "best_block_updated"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "block_connected"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "block_disconnected"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "clone"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "current_best_block"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "deinit"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "get_and_clear_pending_events"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "get_and_clear_pending_monitor_events"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "get_funding_txo"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "get_latest_holder_commitment_txn"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "get_latest_update_id"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "get_outputs_to_watch"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "get_relevant_txids"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "init"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "load_outputs_to_watch"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "transaction_unconfirmed"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "transactions_confirmed"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "update_monitor"]
+- !private ["24LDKMacConsumerExperiment14ChannelMonitorC", "withUnsafePointer"]
+- ["24LDKMacConsumerExperiment14ChannelMonitorC", "write"]
+- !private ["24LDKMacConsumerExperiment20ChannelMonitorUpdateC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment12FeeEstimatorC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment6FilterC", "cOpaqueStruct"]
+- !private ["So17LDKChannelMonitorV", "is_owned"]
+- !private ["24LDKMacConsumerExperiment6LoggerC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment30Result_NoneMonitorUpdateErrorZC", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- !private "24LDKMacConsumerExperiment9BestBlockC"
+- !private "24LDKMacConsumerExperiment8BindingsC"
+- !private "24LDKMacConsumerExperiment20BroadcasterInterfaceC"
+- !private "24LDKMacConsumerExperiment23C2Tuple_OutPointScriptZC"
+- "24LDKMacConsumerExperiment14ChannelMonitorC"
+- !private "24LDKMacConsumerExperiment20ChannelMonitorUpdateC"
+- !private "24LDKMacConsumerExperiment12FeeEstimatorC"
+- !private "24LDKMacConsumerExperiment6FilterC"
+- !private "So17LDKChannelMonitorV"
+- !private "24LDKMacConsumerExperiment6LoggerC"
+- !private "24LDKMacConsumerExperiment30Result_NoneMonitorUpdateErrorZC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b4d18274a09eb42c6664921f4723e01d"

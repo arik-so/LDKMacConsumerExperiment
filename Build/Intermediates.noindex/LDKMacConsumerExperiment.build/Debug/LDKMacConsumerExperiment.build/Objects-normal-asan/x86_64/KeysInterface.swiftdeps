@@ -1,0 +1,254 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeysInterface"
+- "NativelyImplementedKeysInterface"
+provides-nominal:
+- "24LDKMacConsumerExperiment13KeysInterfaceC"
+- "24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC"
+provides-member:
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", ""]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "free"
+- "get_channel_signer"
+- "get_destination_script"
+- "get_node_secret"
+- "get_secure_random_bytes"
+- "get_shutdown_pubkey"
+- "read_chan_signer"
+- "sign_invoice"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Bindings"
+- "Bool"
+- "KeysInterface"
+- "LDKCResult_RecoverableSignatureNoneZ"
+- "LDKCResult_SignDecodeErrorZ"
+- "LDKCVec_u8Z"
+- "LDKKeysInterface"
+- "LDKPublicKey"
+- "LDKSecretKey"
+- "LDKSign"
+- "LDKThirtyTwoBytes"
+- "LDKu8slice"
+- "NativelyImplementedKeysInterface"
+- "Result_RecoverableSignatureNoneZ"
+- "Result_SignDecodeErrorZ"
+- "Sign"
+- !private "StringLiteralType"
+- "UInt64"
+- "UInt8"
+- "UnsafeMutableRawPointer"
+- "UnsafeRawPointer"
+- "Void"
+- !private "freeCallback"
+- !private "get_channel_signerCallback"
+- !private "get_destination_scriptCallback"
+- !private "get_node_secretCallback"
+- !private "get_secure_random_bytesCallback"
+- !private "get_shutdown_pubkeyCallback"
+- !private "read_chan_signerCallback"
+- !private "sign_invoiceCallback"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_u8Z_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKPublicKey_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKSecretKey_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKThirtyTwoBytes_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKu8slice_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "instanceToPointer"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKCVec_u8Z"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKPublicKey"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKSecretKey"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKThirtyTwoBytes"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKu8slice"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "pointerToInstance"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "init"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "init"]
+- !private ["SQ", ""]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "init"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "Bindings"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "Bool"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "KeysInterface"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "LDKCResult_RecoverableSignatureNoneZ"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "LDKCResult_SignDecodeErrorZ"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "LDKCVec_u8Z"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "LDKKeysInterface"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "LDKPublicKey"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "LDKSecretKey"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "LDKSign"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "LDKThirtyTwoBytes"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "LDKu8slice"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "Result_RecoverableSignatureNoneZ"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "Result_SignDecodeErrorZ"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "Sign"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "UInt64"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "UInt8"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "UnsafeMutableRawPointer"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "UnsafeRawPointer"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "Void"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", ""]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "deinit"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "free"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "freeCallback"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_channel_signer"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_channel_signerCallback"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_destination_script"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_destination_scriptCallback"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_node_secret"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_node_secretCallback"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_secure_random_bytes"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_secure_random_bytesCallback"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_shutdown_pubkey"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "get_shutdown_pubkeyCallback"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "init"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "read_chan_signer"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "read_chan_signerCallback"]
+- ["24LDKMacConsumerExperiment13KeysInterfaceC", "sign_invoice"]
+- !private ["24LDKMacConsumerExperiment13KeysInterfaceC", "sign_invoiceCallback"]
+- !private ["So36LDKCResult_RecoverableSignatureNoneZV", "init"]
+- !private ["So27LDKCResult_SignDecodeErrorZV", "init"]
+- !private ["So16LDKKeysInterfaceV", "free"]
+- !private ["So16LDKKeysInterfaceV", "get_channel_signer"]
+- !private ["So16LDKKeysInterfaceV", "get_destination_script"]
+- !private ["So16LDKKeysInterfaceV", "get_node_secret"]
+- !private ["So16LDKKeysInterfaceV", "get_secure_random_bytes"]
+- !private ["So16LDKKeysInterfaceV", "get_shutdown_pubkey"]
+- !private ["So16LDKKeysInterfaceV", "init"]
+- !private ["So16LDKKeysInterfaceV", "read_chan_signer"]
+- !private ["So16LDKKeysInterfaceV", "sign_invoice"]
+- !private ["So16LDKKeysInterfaceV", "this_arg"]
+- !private ["So7LDKSignV", "init"]
+- !private ["SM", ""]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "Bindings"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "Bool"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "Result_RecoverableSignatureNoneZ"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "Result_SignDecodeErrorZ"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "Sign"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "UInt64"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "UInt8"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "Void"]
+- !private ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "deinit"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "free"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "get_channel_signer"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "get_destination_script"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "get_node_secret"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "get_secure_random_bytes"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "get_shutdown_pubkey"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "init"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "read_chan_signer"]
+- ["24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC", "sign_invoice"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sk", ""]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["24LDKMacConsumerExperiment32Result_RecoverableSignatureNoneZC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment32Result_RecoverableSignatureNoneZC", "init"]
+- !private ["24LDKMacConsumerExperiment23Result_SignDecodeErrorZC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment23Result_SignDecodeErrorZC", "init"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["24LDKMacConsumerExperiment4SignC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment4SignC", "init"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "24LDKMacConsumerExperiment8BindingsC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- "24LDKMacConsumerExperiment13KeysInterfaceC"
+- !private "So36LDKCResult_RecoverableSignatureNoneZV"
+- !private "So27LDKCResult_SignDecodeErrorZV"
+- !private "So16LDKKeysInterfaceV"
+- !private "So7LDKSignV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "24LDKMacConsumerExperiment32NativelyImplementedKeysInterfaceC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "24LDKMacConsumerExperiment32Result_RecoverableSignatureNoneZC"
+- !private "24LDKMacConsumerExperiment23Result_SignDecodeErrorZC"
+- !private "ST"
+- !private "24LDKMacConsumerExperiment4SignC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "89f72ccd9deea1289ad79e12bcee0076"

@@ -1,0 +1,171 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaymentSendFailure"
+provides-nominal:
+- "24LDKMacConsumerExperiment18PaymentSendFailureC"
+- "24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO"
+provides-member:
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", ""]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "getValueAsAllFailedRetrySafe"
+- "getValueAsParameterError"
+- "getValueAsPartialFailure"
+- "getValueAsPathParameterError"
+- "getValueType"
+depends-top-level:
+- !private "!="
+- "=="
+- "APIError"
+- "AssignmentPrecedence"
+- !private "Bindings"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LDKAPIError"
+- "LDKCResult_NoneAPIErrorZ"
+- "LDKPaymentSendFailure"
+- !private "LDKPaymentSendFailure_AllFailedRetrySafe"
+- !private "LDKPaymentSendFailure_ParameterError"
+- !private "LDKPaymentSendFailure_PartialFailure"
+- !private "LDKPaymentSendFailure_PathParameterError"
+- "PaymentSendFailure"
+- "PaymentSendFailureValueType"
+- !private "~="
+depends-member:
+- !private ["24LDKMacConsumerExperiment8APIErrorC", "init"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_APIErrorZ_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_CResult_NoneAPIErrorZZ_to_array"]
+- !private ["s28CustomDebugStringConvertibleP", "AllFailedRetrySafe"]
+- !private ["s28CustomDebugStringConvertibleP", "ParameterError"]
+- !private ["s28CustomDebugStringConvertibleP", "PartialFailure"]
+- !private ["s28CustomDebugStringConvertibleP", "PathParameterError"]
+- !private ["s17CustomReflectableP", "AllFailedRetrySafe"]
+- !private ["s17CustomReflectableP", "ParameterError"]
+- !private ["s17CustomReflectableP", "PartialFailure"]
+- !private ["s17CustomReflectableP", "PathParameterError"]
+- !private ["Se", "AllFailedRetrySafe"]
+- !private ["Se", "ParameterError"]
+- !private ["Se", "PartialFailure"]
+- !private ["Se", "PathParameterError"]
+- !private ["SE", "AllFailedRetrySafe"]
+- !private ["SE", "ParameterError"]
+- !private ["SE", "PartialFailure"]
+- !private ["SE", "PathParameterError"]
+- ["SQ", "=="]
+- !private ["SQ", "AllFailedRetrySafe"]
+- !private ["SQ", "ParameterError"]
+- !private ["SQ", "PartialFailure"]
+- !private ["SQ", "PathParameterError"]
+- !private ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["s23ExpressibleByNilLiteralP", "AllFailedRetrySafe"]
+- !private ["s23ExpressibleByNilLiteralP", "ParameterError"]
+- !private ["s23ExpressibleByNilLiteralP", "PartialFailure"]
+- !private ["s23ExpressibleByNilLiteralP", "PathParameterError"]
+- ["SH", "=="]
+- !private ["SH", "AllFailedRetrySafe"]
+- !private ["SH", "ParameterError"]
+- !private ["SH", "PartialFailure"]
+- !private ["SH", "PathParameterError"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["So21LDKPaymentSendFailureV", "all_failed_retry_safe"]
+- !private ["So21LDKPaymentSendFailureV", "parameter_error"]
+- !private ["So21LDKPaymentSendFailureV", "partial_failure"]
+- !private ["So21LDKPaymentSendFailureV", "path_parameter_error"]
+- !private ["So21LDKPaymentSendFailureV", "tag"]
+- !private ["So25LDKPaymentSendFailure_TagV", "RawValue"]
+- !private ["Sq", "AllFailedRetrySafe"]
+- !private ["Sq", "ParameterError"]
+- !private ["Sq", "PartialFailure"]
+- !private ["Sq", "PathParameterError"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "APIError"]
+- !private ["24LDKMacConsumerExperiment18PaymentSendFailureC", "Bindings"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "LDKAPIError"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "LDKCResult_NoneAPIErrorZ"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "LDKPaymentSendFailure"]
+- !private ["24LDKMacConsumerExperiment18PaymentSendFailureC", "LDKPaymentSendFailure_AllFailedRetrySafe"]
+- !private ["24LDKMacConsumerExperiment18PaymentSendFailureC", "LDKPaymentSendFailure_ParameterError"]
+- !private ["24LDKMacConsumerExperiment18PaymentSendFailureC", "LDKPaymentSendFailure_PartialFailure"]
+- !private ["24LDKMacConsumerExperiment18PaymentSendFailureC", "LDKPaymentSendFailure_PathParameterError"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "PaymentSendFailureValueType"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "deinit"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "getValueAsAllFailedRetrySafe"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "getValueAsParameterError"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "getValueAsPartialFailure"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "getValueAsPathParameterError"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "getValueType"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC", "init"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", "=="]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", "AllFailedRetrySafe"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", "ParameterError"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", "PartialFailure"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", "PathParameterError"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", ""]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", "__derived_enum_equals"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", "_rawHashValue"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", "hash"]
+- ["24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO", "hashValue"]
+- !private ["SY", "RawValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "AllFailedRetrySafe"]
+- !private ["s21_ObjectiveCBridgeableP", "ParameterError"]
+- !private ["s21_ObjectiveCBridgeableP", "PartialFailure"]
+- !private ["s21_ObjectiveCBridgeableP", "PathParameterError"]
+depends-nominal:
+- !private "24LDKMacConsumerExperiment8APIErrorC"
+- !private "24LDKMacConsumerExperiment8BindingsC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "So21LDKPaymentSendFailureV"
+- !private "So25LDKPaymentSendFailure_TagV"
+- !private "Sq"
+- "24LDKMacConsumerExperiment18PaymentSendFailureC"
+- "24LDKMacConsumerExperiment18PaymentSendFailureC0deF9ValueTypeO"
+- !private "SY"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cec029aefeaf48653cb448d1f2553fc7"

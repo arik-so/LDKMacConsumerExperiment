@@ -1,0 +1,116 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Result_InitDecodeErrorZ"
+provides-nominal:
+- "24LDKMacConsumerExperiment23Result_InitDecodeErrorZC"
+provides-member:
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "getError"
+- "getValue"
+- "isOk"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "DecodeError"
+- "Init"
+- "LDKCResult_InitDecodeErrorZ"
+- !private "LDKCResult_InitDecodeErrorZPtr"
+- "Result_InitDecodeErrorZ"
+depends-member:
+- !private ["s7CVarArgP", "pointee"]
+- !private ["SL", ""]
+- !private ["SL", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["Se", "pointee"]
+- !private ["24LDKMacConsumerExperiment11DecodeErrorC", "init"]
+- !private ["SE", "pointee"]
+- !private ["SQ", ""]
+- !private ["SQ", "pointee"]
+- !private ["s23ExpressibleByNilLiteralP", "pointee"]
+- !private ["SH", ""]
+- !private ["SH", "pointee"]
+- !private ["24LDKMacConsumerExperiment4InitC", "init"]
+- !private ["So27LDKCResult_InitDecodeErrorZV", "contents"]
+- !private ["So27LDKCResult_InitDecodeErrorZV", "init"]
+- !private ["So27LDKCResult_InitDecodeErrorZV", "result_ok"]
+- !private ["So30LDKCResult_InitDecodeErrorZPtrV", "err"]
+- !private ["So30LDKCResult_InitDecodeErrorZPtrV", "init"]
+- !private ["So30LDKCResult_InitDecodeErrorZPtrV", "result"]
+- !private ["Sq", "pointee"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "Bool"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "DecodeError"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "Init"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "LDKCResult_InitDecodeErrorZ"]
+- !private ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "LDKCResult_InitDecodeErrorZPtr"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "deinit"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "getError"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "getValue"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "init"]
+- ["24LDKMacConsumerExperiment23Result_InitDecodeErrorZC", "isOk"]
+- !private ["Sx", ""]
+- !private ["Sx", "pointee"]
+- !private ["Sp", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pointee"]
+- !private ["s8_PointerP", "pointee"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "24LDKMacConsumerExperiment11DecodeErrorC"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "24LDKMacConsumerExperiment4InitC"
+- !private "So27LDKCResult_InitDecodeErrorZV"
+- !private "So30LDKCResult_InitDecodeErrorZPtrV"
+- !private "Sq"
+- "24LDKMacConsumerExperiment23Result_InitDecodeErrorZC"
+- !private "Sx"
+- !private "Sp"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "07662552699629c0aabb7991c58365c7"

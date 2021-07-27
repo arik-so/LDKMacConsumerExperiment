@@ -1,0 +1,236 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Watch"
+- "NativelyImplementedWatch"
+provides-nominal:
+- "17LDKExperimentTest5WatchC"
+- "17LDKExperimentTest24NativelyImplementedWatchC"
+provides-member:
+- ["17LDKExperimentTest5WatchC", ""]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "free"
+- "release_pending_monitor_events"
+- "update_channel"
+- "watch_channel"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Bindings"
+- "ChannelMonitor"
+- "ChannelMonitorUpdate"
+- "LDKCResult_NoneChannelMonitorUpdateErrZ"
+- "LDKCVec_MonitorEventZ"
+- "LDKChannelMonitor"
+- "LDKChannelMonitorUpdate"
+- "LDKMonitorEvent"
+- "LDKOutPoint"
+- "LDKWatch"
+- "NativelyImplementedWatch"
+- "OutPoint"
+- "Result_NoneChannelMonitorUpdateErrZ"
+- !private "StringLiteralType"
+- "UnsafeMutableRawPointer"
+- "UnsafeRawPointer"
+- "Void"
+- "Watch"
+- !private "freeCallback"
+- !private "release_pending_monitor_eventsCallback"
+- !private "update_channelCallback"
+- !private "watch_channelCallback"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKCVec_MonitorEventZ_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "instanceToPointer"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKCVec_MonitorEventZ"]
+- !private ["17LDKExperimentTest8BindingsC", "pointerToInstance"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["17LDKExperimentTest14ChannelMonitorC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest14ChannelMonitorC", "init"]
+- !private ["17LDKExperimentTest20ChannelMonitorUpdateC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest20ChannelMonitorUpdateC", "init"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "init"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "init"]
+- !private ["SQ", ""]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "init"]
+- !private ["So39LDKCResult_NoneChannelMonitorUpdateErrZV", "init"]
+- !private ["So8LDKWatchV", "free"]
+- !private ["So8LDKWatchV", "init"]
+- !private ["So8LDKWatchV", "release_pending_monitor_events"]
+- !private ["So8LDKWatchV", "this_arg"]
+- !private ["So8LDKWatchV", "update_channel"]
+- !private ["So8LDKWatchV", "watch_channel"]
+- !private ["SM", ""]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSObjectP", ""]
+- !private ["17LDKExperimentTest24NativelyImplementedWatchC", "Bindings"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "ChannelMonitor"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "ChannelMonitorUpdate"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "LDKMonitorEvent"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "OutPoint"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "Result_NoneChannelMonitorUpdateErrZ"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "Void"]
+- !private ["17LDKExperimentTest24NativelyImplementedWatchC", "cOpaqueStruct"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "deinit"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "free"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "init"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "release_pending_monitor_events"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "update_channel"]
+- ["17LDKExperimentTest24NativelyImplementedWatchC", "watch_channel"]
+- !private ["Sq", "callAsFunction"]
+- !private ["17LDKExperimentTest8OutPointC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest8OutPointC", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["17LDKExperimentTest35Result_NoneChannelMonitorUpdateErrZC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest35Result_NoneChannelMonitorUpdateErrZC", "init"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["17LDKExperimentTest5WatchC", "Bindings"]
+- ["17LDKExperimentTest5WatchC", "ChannelMonitor"]
+- ["17LDKExperimentTest5WatchC", "ChannelMonitorUpdate"]
+- !private ["17LDKExperimentTest5WatchC", "LDKCResult_NoneChannelMonitorUpdateErrZ"]
+- !private ["17LDKExperimentTest5WatchC", "LDKCVec_MonitorEventZ"]
+- !private ["17LDKExperimentTest5WatchC", "LDKChannelMonitor"]
+- !private ["17LDKExperimentTest5WatchC", "LDKChannelMonitorUpdate"]
+- ["17LDKExperimentTest5WatchC", "LDKMonitorEvent"]
+- !private ["17LDKExperimentTest5WatchC", "LDKOutPoint"]
+- ["17LDKExperimentTest5WatchC", "LDKWatch"]
+- ["17LDKExperimentTest5WatchC", "OutPoint"]
+- ["17LDKExperimentTest5WatchC", "Result_NoneChannelMonitorUpdateErrZ"]
+- !private ["17LDKExperimentTest5WatchC", "UnsafeMutableRawPointer"]
+- !private ["17LDKExperimentTest5WatchC", "UnsafeRawPointer"]
+- ["17LDKExperimentTest5WatchC", "Void"]
+- !private ["17LDKExperimentTest5WatchC", "Watch"]
+- ["17LDKExperimentTest5WatchC", ""]
+- ["17LDKExperimentTest5WatchC", "cOpaqueStruct"]
+- ["17LDKExperimentTest5WatchC", "deinit"]
+- ["17LDKExperimentTest5WatchC", "free"]
+- !private ["17LDKExperimentTest5WatchC", "freeCallback"]
+- ["17LDKExperimentTest5WatchC", "init"]
+- ["17LDKExperimentTest5WatchC", "release_pending_monitor_events"]
+- !private ["17LDKExperimentTest5WatchC", "release_pending_monitor_eventsCallback"]
+- ["17LDKExperimentTest5WatchC", "update_channel"]
+- !private ["17LDKExperimentTest5WatchC", "update_channelCallback"]
+- ["17LDKExperimentTest5WatchC", "watch_channel"]
+- !private ["17LDKExperimentTest5WatchC", "watch_channelCallback"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "17LDKExperimentTest8BindingsC"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "17LDKExperimentTest14ChannelMonitorC"
+- !private "17LDKExperimentTest20ChannelMonitorUpdateC"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "So39LDKCResult_NoneChannelMonitorUpdateErrZV"
+- !private "So8LDKWatchV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectP"
+- "17LDKExperimentTest24NativelyImplementedWatchC"
+- !private "Sq"
+- !private "17LDKExperimentTest8OutPointC"
+- !private "Sk"
+- !private "Sm"
+- !private "17LDKExperimentTest35Result_NoneChannelMonitorUpdateErrZC"
+- !private "ST"
+- "17LDKExperimentTest5WatchC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/Build/Products/Debug/LDKMacConsumerExperiment.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5e0168e83e66780c239e744e92b03441"

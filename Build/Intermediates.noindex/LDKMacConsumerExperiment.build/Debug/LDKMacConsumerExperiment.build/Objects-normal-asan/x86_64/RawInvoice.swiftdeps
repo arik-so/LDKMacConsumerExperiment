@@ -1,0 +1,217 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RawInvoice"
+provides-nominal:
+- "24LDKMacConsumerExperiment10RawInvoiceC"
+provides-member:
+- ["24LDKMacConsumerExperiment10RawInvoiceC", ""]
+provides-dynamic-lookup:
+- "amount_pico_btc"
+- "cOpaqueStruct"
+- "clone"
+- "currency"
+- "description"
+- "description_hash"
+- "eq"
+- "expiry_time"
+- "features"
+- "get_data"
+- "hash"
+- "min_final_cltv_expiry"
+- "payee_pub_key"
+- "payment_hash"
+- "payment_secret"
+- "private_routes"
+- "set_data"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bindings"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Description"
+- "ExpiryTime"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "InvoiceFeatures"
+- "LDKCurrency"
+- "LDKPrivateRoute"
+- "LDKRawInvoice"
+- "MinFinalCltvExpiry"
+- "Option_u64Z"
+- "PayeePubKey"
+- "RawDataPart"
+- "RawInvoice"
+- "RawInvoice_amount_pico_btc"
+- "RawInvoice_clone"
+- "RawInvoice_currency"
+- "RawInvoice_description"
+- "RawInvoice_description_hash"
+- "RawInvoice_eq"
+- "RawInvoice_expiry_time"
+- "RawInvoice_features"
+- !private "RawInvoice_free"
+- "RawInvoice_get_data"
+- "RawInvoice_hash"
+- "RawInvoice_min_final_cltv_expiry"
+- "RawInvoice_payee_pub_key"
+- "RawInvoice_payment_hash"
+- "RawInvoice_payment_secret"
+- "RawInvoice_private_routes"
+- !private "RawInvoice_set_data"
+- "Sha256"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- "Void"
+- "withUnsafePointer"
+depends-member:
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_PrivateRouteZ_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKThirtyTwoBytes_to_array"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["SL", ""]
+- !private ["SL", "allocate"]
+- !private ["SL", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["24LDKMacConsumerExperiment11DescriptionC", "init"]
+- !private ["SQ", ""]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "initialize"]
+- !private ["24LDKMacConsumerExperiment10ExpiryTimeC", "init"]
+- !private ["SH", ""]
+- !private ["SH", "allocate"]
+- !private ["SH", "initialize"]
+- !private ["24LDKMacConsumerExperiment15InvoiceFeaturesC", "init"]
+- !private ["So13LDKRawInvoiceV", "is_owned"]
+- !private ["24LDKMacConsumerExperiment18MinFinalCltvExpiryC", "init"]
+- !private ["24LDKMacConsumerExperiment11Option_u64ZC", "init"]
+- !private ["24LDKMacConsumerExperiment11PayeePubKeyC", "init"]
+- !private ["24LDKMacConsumerExperiment11RawDataPartC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment11RawDataPartC", "init"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "Bindings"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "Bool"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "Description"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "ExpiryTime"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "InvoiceFeatures"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "LDKCurrency"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "LDKPrivateRoute"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "LDKRawInvoice"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "MinFinalCltvExpiry"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "Option_u64Z"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "PayeePubKey"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "RawDataPart"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_amount_pico_btc"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_clone"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_currency"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_description"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_description_hash"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_eq"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_expiry_time"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_features"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_free"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_get_data"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_hash"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_min_final_cltv_expiry"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_payee_pub_key"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_payment_hash"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_payment_secret"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_private_routes"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "RawInvoice_set_data"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "Sha256"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "UInt8"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "UnsafeMutablePointer"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "UnsafePointer"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "Void"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "amount_pico_btc"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "clone"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "currency"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "deinit"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "description"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "description_hash"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "eq"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "expiry_time"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "features"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "get_data"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "hash"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "init"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "min_final_cltv_expiry"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "payee_pub_key"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "payment_hash"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "payment_secret"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "private_routes"]
+- ["24LDKMacConsumerExperiment10RawInvoiceC", "set_data"]
+- !private ["24LDKMacConsumerExperiment10RawInvoiceC", "withUnsafePointer"]
+- !private ["24LDKMacConsumerExperiment6Sha256C", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "initialize"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "initialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "initialize"]
+depends-nominal:
+- !private "24LDKMacConsumerExperiment8BindingsC"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "24LDKMacConsumerExperiment11DescriptionC"
+- !private "SQ"
+- !private "24LDKMacConsumerExperiment10ExpiryTimeC"
+- !private "SH"
+- !private "24LDKMacConsumerExperiment15InvoiceFeaturesC"
+- !private "So13LDKRawInvoiceV"
+- !private "24LDKMacConsumerExperiment18MinFinalCltvExpiryC"
+- !private "24LDKMacConsumerExperiment11Option_u64ZC"
+- !private "24LDKMacConsumerExperiment11PayeePubKeyC"
+- !private "24LDKMacConsumerExperiment11RawDataPartC"
+- "24LDKMacConsumerExperiment10RawInvoiceC"
+- !private "24LDKMacConsumerExperiment6Sha256C"
+- !private "Sx"
+- !private "Sp"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "620ad6ae0226553d136126d28901bd5e"

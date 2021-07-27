@@ -1,0 +1,220 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DelayedPaymentOutputDescriptor"
+provides-nominal:
+- "24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC"
+provides-member:
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "clone"
+- "get_channel_keys_id"
+- "get_channel_value_satoshis"
+- "get_outpoint"
+- "get_per_commitment_point"
+- "get_revocation_pubkey"
+- "get_to_self_delay"
+- "read"
+- "set_channel_keys_id"
+- "set_channel_value_satoshis"
+- "set_outpoint"
+- "set_output"
+- "set_per_commitment_point"
+- "set_revocation_pubkey"
+- "set_to_self_delay"
+- "write"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bindings"
+- !private "BooleanLiteralType"
+- "DelayedPaymentOutputDescriptor"
+- "DelayedPaymentOutputDescriptor_clone"
+- !private "DelayedPaymentOutputDescriptor_free"
+- "DelayedPaymentOutputDescriptor_get_channel_keys_id"
+- "DelayedPaymentOutputDescriptor_get_channel_value_satoshis"
+- "DelayedPaymentOutputDescriptor_get_outpoint"
+- "DelayedPaymentOutputDescriptor_get_per_commitment_point"
+- "DelayedPaymentOutputDescriptor_get_revocation_pubkey"
+- "DelayedPaymentOutputDescriptor_get_to_self_delay"
+- !private "DelayedPaymentOutputDescriptor_new"
+- !private "DelayedPaymentOutputDescriptor_read"
+- !private "DelayedPaymentOutputDescriptor_set_channel_keys_id"
+- !private "DelayedPaymentOutputDescriptor_set_channel_value_satoshis"
+- !private "DelayedPaymentOutputDescriptor_set_outpoint"
+- !private "DelayedPaymentOutputDescriptor_set_output"
+- !private "DelayedPaymentOutputDescriptor_set_per_commitment_point"
+- !private "DelayedPaymentOutputDescriptor_set_revocation_pubkey"
+- !private "DelayedPaymentOutputDescriptor_set_to_self_delay"
+- "DelayedPaymentOutputDescriptor_write"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LDKDelayedPaymentOutputDescriptor"
+- "LDKTxOut"
+- "OutPoint"
+- "Result_DelayedPaymentOutputDescriptorDecodeErrorZ"
+- "UInt16"
+- "UInt64"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- "Void"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_u8Z_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKPublicKey_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKPublicKey"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKThirtyTwoBytes"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKu8slice"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "tuple32_to_array"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["SL", ""]
+- !private ["SL", "allocate"]
+- !private ["SL", "initialize"]
+- !private ["SL", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["Se", "pointee"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "Bindings"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_clone"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_free"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_get_channel_keys_id"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_get_channel_value_satoshis"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_get_outpoint"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_get_per_commitment_point"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_get_revocation_pubkey"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_get_to_self_delay"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_new"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_read"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_set_channel_keys_id"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_set_channel_value_satoshis"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_set_outpoint"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_set_output"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_set_per_commitment_point"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_set_revocation_pubkey"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_set_to_self_delay"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "DelayedPaymentOutputDescriptor_write"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "LDKDelayedPaymentOutputDescriptor"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "LDKTxOut"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "OutPoint"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "Result_DelayedPaymentOutputDescriptorDecodeErrorZ"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "UInt16"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "UInt64"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "UInt8"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "UnsafeMutablePointer"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "UnsafePointer"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "Void"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "clone"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "deinit"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "get_channel_keys_id"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "get_channel_value_satoshis"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "get_outpoint"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "get_per_commitment_point"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "get_revocation_pubkey"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "get_to_self_delay"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "init"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "read"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "set_channel_keys_id"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "set_channel_value_satoshis"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "set_outpoint"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "set_output"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "set_per_commitment_point"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "set_revocation_pubkey"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "set_to_self_delay"]
+- !private ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "withUnsafePointer"]
+- ["24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC", "write"]
+- !private ["SE", "pointee"]
+- !private ["SQ", ""]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "initialize"]
+- !private ["SQ", "pointee"]
+- !private ["s23ExpressibleByNilLiteralP", "pointee"]
+- !private ["SH", ""]
+- !private ["SH", "allocate"]
+- !private ["SH", "initialize"]
+- !private ["SH", "pointee"]
+- !private ["So33LDKDelayedPaymentOutputDescriptorV", "is_owned"]
+- !private ["Sq", "pointee"]
+- !private ["24LDKMacConsumerExperiment8OutPointC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment8OutPointC", "init"]
+- !private ["24LDKMacConsumerExperiment49Result_DelayedPaymentOutputDescriptorDecodeErrorZC", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "initialize"]
+- !private ["Sx", "pointee"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "initialize"]
+- !private ["SP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pointee"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "initialize"]
+- !private ["s8_PointerP", "pointee"]
+depends-nominal:
+- !private "24LDKMacConsumerExperiment8BindingsC"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- "24LDKMacConsumerExperiment30DelayedPaymentOutputDescriptorC"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "So33LDKDelayedPaymentOutputDescriptorV"
+- !private "Sq"
+- !private "24LDKMacConsumerExperiment8OutPointC"
+- !private "24LDKMacConsumerExperiment49Result_DelayedPaymentOutputDescriptorDecodeErrorZC"
+- !private "Sx"
+- !private "Sp"
+- !private "SP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6e8fc3dda5ef4245bc31d30e9a14248d"

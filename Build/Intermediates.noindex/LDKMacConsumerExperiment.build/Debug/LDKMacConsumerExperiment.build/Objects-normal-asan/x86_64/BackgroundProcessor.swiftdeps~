@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BackgroundProcessor"
+provides-nominal:
+- "24LDKMacConsumerExperiment19BackgroundProcessorC"
+provides-member:
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "stop"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "BackgroundProcessor"
+- !private "BackgroundProcessor_free"
+- "BackgroundProcessor_start"
+- !private "BackgroundProcessor_stop"
+- !private "BooleanLiteralType"
+- "ChainMonitor"
+- "ChannelManager"
+- "ChannelManagerPersister"
+- "EventHandler"
+- "LDKBackgroundProcessor"
+- "LDKChainMonitor"
+- "LDKChannelManager"
+- "LDKPeerManager"
+- "Logger"
+- "PeerManager"
+- "Result_NoneErrorZ"
+- "UnsafePointer"
+- "withUnsafePointer"
+depends-member:
+- !private ["24LDKMacConsumerExperiment19BackgroundProcessorC", "BackgroundProcessor_free"]
+- !private ["24LDKMacConsumerExperiment19BackgroundProcessorC", "BackgroundProcessor_start"]
+- !private ["24LDKMacConsumerExperiment19BackgroundProcessorC", "BackgroundProcessor_stop"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "ChainMonitor"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "ChannelManager"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "ChannelManagerPersister"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "EventHandler"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "LDKBackgroundProcessor"]
+- !private ["24LDKMacConsumerExperiment19BackgroundProcessorC", "LDKChainMonitor"]
+- !private ["24LDKMacConsumerExperiment19BackgroundProcessorC", "LDKChannelManager"]
+- !private ["24LDKMacConsumerExperiment19BackgroundProcessorC", "LDKPeerManager"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "Logger"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "PeerManager"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "Result_NoneErrorZ"]
+- !private ["24LDKMacConsumerExperiment19BackgroundProcessorC", "UnsafePointer"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "deinit"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "init"]
+- ["24LDKMacConsumerExperiment19BackgroundProcessorC", "stop"]
+- !private ["24LDKMacConsumerExperiment19BackgroundProcessorC", "withUnsafePointer"]
+- !private ["24LDKMacConsumerExperiment12ChainMonitorC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment14ChannelManagerC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment23ChannelManagerPersisterC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment12EventHandlerC", "cOpaqueStruct"]
+- !private ["So22LDKBackgroundProcessorV", "is_owned"]
+- !private ["24LDKMacConsumerExperiment6LoggerC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment11PeerManagerC", "cOpaqueStruct"]
+- !private ["24LDKMacConsumerExperiment17Result_NoneErrorZC", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- "24LDKMacConsumerExperiment19BackgroundProcessorC"
+- !private "24LDKMacConsumerExperiment12ChainMonitorC"
+- !private "24LDKMacConsumerExperiment14ChannelManagerC"
+- !private "24LDKMacConsumerExperiment23ChannelManagerPersisterC"
+- !private "24LDKMacConsumerExperiment12EventHandlerC"
+- !private "So22LDKBackgroundProcessorV"
+- !private "24LDKMacConsumerExperiment6LoggerC"
+- !private "24LDKMacConsumerExperiment11PeerManagerC"
+- !private "24LDKMacConsumerExperiment17Result_NoneErrorZC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bacd0cffcd6dcfde84ce24dae989451e"

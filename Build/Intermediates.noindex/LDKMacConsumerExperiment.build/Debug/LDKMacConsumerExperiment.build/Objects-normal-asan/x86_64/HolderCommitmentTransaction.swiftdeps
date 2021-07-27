@@ -1,0 +1,152 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HolderCommitmentTransaction"
+provides-nominal:
+- "24LDKMacConsumerExperiment27HolderCommitmentTransactionC"
+provides-member:
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "clone"
+- "get_counterparty_sig"
+- "read"
+- "set_counterparty_htlc_sigs"
+- "set_counterparty_sig"
+- "write"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bindings"
+- !private "BooleanLiteralType"
+- "CommitmentTransaction"
+- !private "FloatLiteralType"
+- "HolderCommitmentTransaction"
+- "HolderCommitmentTransaction_clone"
+- !private "HolderCommitmentTransaction_free"
+- "HolderCommitmentTransaction_get_counterparty_sig"
+- !private "HolderCommitmentTransaction_new"
+- !private "HolderCommitmentTransaction_read"
+- !private "HolderCommitmentTransaction_set_counterparty_htlc_sigs"
+- !private "HolderCommitmentTransaction_set_counterparty_sig"
+- "HolderCommitmentTransaction_write"
+- !private "IntegerLiteralType"
+- "LDKHolderCommitmentTransaction"
+- "Result_HolderCommitmentTransactionDecodeErrorZ"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- "Void"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_u8Z_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKSignature_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKCVec_SignatureZ"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKPublicKey"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKSignature"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKu8slice"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["24LDKMacConsumerExperiment21CommitmentTransactionC", "cOpaqueStruct"]
+- !private ["SL", ""]
+- !private ["SL", "allocate"]
+- !private ["SL", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["SQ", ""]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "initialize"]
+- !private ["SH", ""]
+- !private ["SH", "allocate"]
+- !private ["SH", "initialize"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "Bindings"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "CommitmentTransaction"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "HolderCommitmentTransaction"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "HolderCommitmentTransaction_clone"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "HolderCommitmentTransaction_free"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "HolderCommitmentTransaction_get_counterparty_sig"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "HolderCommitmentTransaction_new"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "HolderCommitmentTransaction_read"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "HolderCommitmentTransaction_set_counterparty_htlc_sigs"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "HolderCommitmentTransaction_set_counterparty_sig"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "HolderCommitmentTransaction_write"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "LDKHolderCommitmentTransaction"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "Result_HolderCommitmentTransactionDecodeErrorZ"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "UInt8"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "UnsafeMutablePointer"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "UnsafePointer"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "Void"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "clone"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "deinit"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "get_counterparty_sig"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "init"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "read"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "set_counterparty_htlc_sigs"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "set_counterparty_sig"]
+- !private ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "withUnsafePointer"]
+- ["24LDKMacConsumerExperiment27HolderCommitmentTransactionC", "write"]
+- !private ["So30LDKHolderCommitmentTransactionV", "is_owned"]
+- !private ["24LDKMacConsumerExperiment46Result_HolderCommitmentTransactionDecodeErrorZC", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "initialize"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "initialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "initialize"]
+depends-nominal:
+- !private "24LDKMacConsumerExperiment8BindingsC"
+- !private "s7CVarArgP"
+- !private "24LDKMacConsumerExperiment21CommitmentTransactionC"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "SQ"
+- !private "SH"
+- "24LDKMacConsumerExperiment27HolderCommitmentTransactionC"
+- !private "So30LDKHolderCommitmentTransactionV"
+- !private "24LDKMacConsumerExperiment46Result_HolderCommitmentTransactionDecodeErrorZC"
+- !private "Sx"
+- !private "Sp"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "67713e3a3a89a24d3b597d600a6edd41"

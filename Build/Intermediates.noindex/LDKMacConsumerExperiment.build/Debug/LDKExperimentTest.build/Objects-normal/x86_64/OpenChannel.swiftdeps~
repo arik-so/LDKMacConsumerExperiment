@@ -1,0 +1,218 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OpenChannel"
+provides-nominal:
+- "17LDKExperimentTest11OpenChannelC"
+provides-member:
+- ["17LDKExperimentTest11OpenChannelC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "clone"
+- "get_chain_hash"
+- "get_channel_flags"
+- "get_channel_reserve_satoshis"
+- "get_delayed_payment_basepoint"
+- "get_dust_limit_satoshis"
+- "get_feerate_per_kw"
+- "get_first_per_commitment_point"
+- "get_funding_pubkey"
+- "get_funding_satoshis"
+- "get_htlc_basepoint"
+- "get_htlc_minimum_msat"
+- "get_max_accepted_htlcs"
+- "get_max_htlc_value_in_flight_msat"
+- "get_payment_point"
+- "get_push_msat"
+- "get_revocation_basepoint"
+- "get_temporary_channel_id"
+- "get_to_self_delay"
+- "read"
+- "set_chain_hash"
+- "set_channel_flags"
+- "set_channel_reserve_satoshis"
+- "set_delayed_payment_basepoint"
+- "set_dust_limit_satoshis"
+- "set_feerate_per_kw"
+- "set_first_per_commitment_point"
+- "set_funding_pubkey"
+- "set_funding_satoshis"
+- "set_htlc_basepoint"
+- "set_htlc_minimum_msat"
+- "set_max_accepted_htlcs"
+- "set_max_htlc_value_in_flight_msat"
+- "set_payment_point"
+- "set_push_msat"
+- "set_revocation_basepoint"
+- "set_temporary_channel_id"
+- "set_to_self_delay"
+- "write"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bindings"
+- !private "BooleanLiteralType"
+- "LDKOpenChannel"
+- "OpenChannel"
+- !private "OpenChannel_free"
+- !private "OpenChannel_read"
+- !private "OpenChannel_set_chain_hash"
+- !private "OpenChannel_set_channel_flags"
+- !private "OpenChannel_set_channel_reserve_satoshis"
+- !private "OpenChannel_set_delayed_payment_basepoint"
+- !private "OpenChannel_set_dust_limit_satoshis"
+- !private "OpenChannel_set_feerate_per_kw"
+- !private "OpenChannel_set_first_per_commitment_point"
+- !private "OpenChannel_set_funding_pubkey"
+- !private "OpenChannel_set_funding_satoshis"
+- !private "OpenChannel_set_htlc_basepoint"
+- !private "OpenChannel_set_htlc_minimum_msat"
+- !private "OpenChannel_set_max_accepted_htlcs"
+- !private "OpenChannel_set_max_htlc_value_in_flight_msat"
+- !private "OpenChannel_set_payment_point"
+- !private "OpenChannel_set_push_msat"
+- !private "OpenChannel_set_revocation_basepoint"
+- !private "OpenChannel_set_temporary_channel_id"
+- !private "OpenChannel_set_to_self_delay"
+- "Result_OpenChannelDecodeErrorZ"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- "Void"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["17LDKExperimentTest8BindingsC", "LDKCVec_u8Z_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKPublicKey_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKPublicKey"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKThirtyTwoBytes"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKu8slice"]
+- !private ["17LDKExperimentTest8BindingsC", "tuple32_to_array"]
+- !private ["17LDKExperimentTest11OpenChannelC", "Bindings"]
+- ["17LDKExperimentTest11OpenChannelC", "LDKOpenChannel"]
+- ["17LDKExperimentTest11OpenChannelC", "OpenChannel"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_free"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_read"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_chain_hash"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_channel_flags"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_channel_reserve_satoshis"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_delayed_payment_basepoint"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_dust_limit_satoshis"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_feerate_per_kw"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_first_per_commitment_point"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_funding_pubkey"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_funding_satoshis"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_htlc_basepoint"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_htlc_minimum_msat"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_max_accepted_htlcs"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_max_htlc_value_in_flight_msat"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_payment_point"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_push_msat"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_revocation_basepoint"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_temporary_channel_id"]
+- !private ["17LDKExperimentTest11OpenChannelC", "OpenChannel_set_to_self_delay"]
+- ["17LDKExperimentTest11OpenChannelC", "Result_OpenChannelDecodeErrorZ"]
+- ["17LDKExperimentTest11OpenChannelC", "UInt16"]
+- ["17LDKExperimentTest11OpenChannelC", "UInt32"]
+- ["17LDKExperimentTest11OpenChannelC", "UInt64"]
+- ["17LDKExperimentTest11OpenChannelC", "UInt8"]
+- !private ["17LDKExperimentTest11OpenChannelC", "UnsafeMutablePointer"]
+- !private ["17LDKExperimentTest11OpenChannelC", "UnsafePointer"]
+- ["17LDKExperimentTest11OpenChannelC", "Void"]
+- ["17LDKExperimentTest11OpenChannelC", "cOpaqueStruct"]
+- ["17LDKExperimentTest11OpenChannelC", "clone"]
+- ["17LDKExperimentTest11OpenChannelC", "deinit"]
+- ["17LDKExperimentTest11OpenChannelC", "get_chain_hash"]
+- ["17LDKExperimentTest11OpenChannelC", "get_channel_flags"]
+- ["17LDKExperimentTest11OpenChannelC", "get_channel_reserve_satoshis"]
+- ["17LDKExperimentTest11OpenChannelC", "get_delayed_payment_basepoint"]
+- ["17LDKExperimentTest11OpenChannelC", "get_dust_limit_satoshis"]
+- ["17LDKExperimentTest11OpenChannelC", "get_feerate_per_kw"]
+- ["17LDKExperimentTest11OpenChannelC", "get_first_per_commitment_point"]
+- ["17LDKExperimentTest11OpenChannelC", "get_funding_pubkey"]
+- ["17LDKExperimentTest11OpenChannelC", "get_funding_satoshis"]
+- ["17LDKExperimentTest11OpenChannelC", "get_htlc_basepoint"]
+- ["17LDKExperimentTest11OpenChannelC", "get_htlc_minimum_msat"]
+- ["17LDKExperimentTest11OpenChannelC", "get_max_accepted_htlcs"]
+- ["17LDKExperimentTest11OpenChannelC", "get_max_htlc_value_in_flight_msat"]
+- ["17LDKExperimentTest11OpenChannelC", "get_payment_point"]
+- ["17LDKExperimentTest11OpenChannelC", "get_push_msat"]
+- ["17LDKExperimentTest11OpenChannelC", "get_revocation_basepoint"]
+- ["17LDKExperimentTest11OpenChannelC", "get_temporary_channel_id"]
+- ["17LDKExperimentTest11OpenChannelC", "get_to_self_delay"]
+- ["17LDKExperimentTest11OpenChannelC", "init"]
+- ["17LDKExperimentTest11OpenChannelC", "read"]
+- ["17LDKExperimentTest11OpenChannelC", "set_chain_hash"]
+- ["17LDKExperimentTest11OpenChannelC", "set_channel_flags"]
+- ["17LDKExperimentTest11OpenChannelC", "set_channel_reserve_satoshis"]
+- ["17LDKExperimentTest11OpenChannelC", "set_delayed_payment_basepoint"]
+- ["17LDKExperimentTest11OpenChannelC", "set_dust_limit_satoshis"]
+- ["17LDKExperimentTest11OpenChannelC", "set_feerate_per_kw"]
+- ["17LDKExperimentTest11OpenChannelC", "set_first_per_commitment_point"]
+- ["17LDKExperimentTest11OpenChannelC", "set_funding_pubkey"]
+- ["17LDKExperimentTest11OpenChannelC", "set_funding_satoshis"]
+- ["17LDKExperimentTest11OpenChannelC", "set_htlc_basepoint"]
+- ["17LDKExperimentTest11OpenChannelC", "set_htlc_minimum_msat"]
+- ["17LDKExperimentTest11OpenChannelC", "set_max_accepted_htlcs"]
+- ["17LDKExperimentTest11OpenChannelC", "set_max_htlc_value_in_flight_msat"]
+- ["17LDKExperimentTest11OpenChannelC", "set_payment_point"]
+- ["17LDKExperimentTest11OpenChannelC", "set_push_msat"]
+- ["17LDKExperimentTest11OpenChannelC", "set_revocation_basepoint"]
+- ["17LDKExperimentTest11OpenChannelC", "set_temporary_channel_id"]
+- ["17LDKExperimentTest11OpenChannelC", "set_to_self_delay"]
+- !private ["17LDKExperimentTest11OpenChannelC", "withUnsafePointer"]
+- ["17LDKExperimentTest11OpenChannelC", "write"]
+- !private ["SY", "RawValue"]
+depends-nominal:
+- !private "17LDKExperimentTest8BindingsC"
+- "17LDKExperimentTest11OpenChannelC"
+- !private "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/Build/Products/Debug/LDKMacConsumerExperiment.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "34f0a42cef8e18700fd4c22f0ba78e5f"

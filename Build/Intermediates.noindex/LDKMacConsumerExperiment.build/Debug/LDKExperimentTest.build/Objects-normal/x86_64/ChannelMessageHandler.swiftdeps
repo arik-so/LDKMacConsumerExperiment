@@ -1,0 +1,465 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChannelMessageHandler"
+- "NativelyImplementedChannelMessageHandler"
+provides-nominal:
+- "17LDKExperimentTest21ChannelMessageHandlerC"
+- "17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC"
+provides-member:
+- ["17LDKExperimentTest21ChannelMessageHandlerC", ""]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "free"
+- "handle_accept_channel"
+- "handle_announcement_signatures"
+- "handle_channel_reestablish"
+- "handle_channel_update"
+- "handle_closing_signed"
+- "handle_commitment_signed"
+- "handle_error"
+- "handle_funding_created"
+- "handle_funding_locked"
+- "handle_funding_signed"
+- "handle_open_channel"
+- "handle_revoke_and_ack"
+- "handle_shutdown"
+- "handle_update_add_htlc"
+- "handle_update_fail_htlc"
+- "handle_update_fail_malformed_htlc"
+- "handle_update_fee"
+- "handle_update_fulfill_htlc"
+- "peer_connected"
+- "peer_disconnected"
+depends-top-level:
+- "AcceptChannel"
+- "AnnouncementSignatures"
+- "AssignmentPrecedence"
+- "Bindings"
+- "Bool"
+- "ChannelMessageHandler"
+- "ChannelReestablish"
+- "ChannelUpdate"
+- "ClosingSigned"
+- "CommitmentSigned"
+- "ErrorMessage"
+- "FundingCreated"
+- "FundingLocked"
+- "FundingSigned"
+- "Init"
+- "InitFeatures"
+- "LDKAcceptChannel"
+- "LDKAnnouncementSignatures"
+- "LDKChannelMessageHandler"
+- "LDKChannelReestablish"
+- "LDKChannelUpdate"
+- "LDKClosingSigned"
+- "LDKCommitmentSigned"
+- "LDKErrorMessage"
+- "LDKFundingCreated"
+- "LDKFundingLocked"
+- "LDKFundingSigned"
+- "LDKInit"
+- "LDKInitFeatures"
+- !private "LDKMessageSendEventsProvider"
+- "LDKOpenChannel"
+- "LDKPublicKey"
+- "LDKRevokeAndACK"
+- "LDKShutdown"
+- "LDKUpdateAddHTLC"
+- "LDKUpdateFailHTLC"
+- "LDKUpdateFailMalformedHTLC"
+- "LDKUpdateFee"
+- "LDKUpdateFulfillHTLC"
+- "NativelyImplementedChannelMessageHandler"
+- "OpenChannel"
+- "RevokeAndACK"
+- "Shutdown"
+- !private "StringLiteralType"
+- "UInt8"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "UnsafeRawPointer"
+- "UpdateAddHTLC"
+- "UpdateFailHTLC"
+- "UpdateFailMalformedHTLC"
+- "UpdateFee"
+- "UpdateFulfillHTLC"
+- "Void"
+- !private "freeCallback"
+- !private "handle_accept_channelCallback"
+- !private "handle_announcement_signaturesCallback"
+- !private "handle_channel_reestablishCallback"
+- !private "handle_channel_updateCallback"
+- !private "handle_closing_signedCallback"
+- !private "handle_commitment_signedCallback"
+- !private "handle_errorCallback"
+- !private "handle_funding_createdCallback"
+- !private "handle_funding_lockedCallback"
+- !private "handle_funding_signedCallback"
+- !private "handle_open_channelCallback"
+- !private "handle_revoke_and_ackCallback"
+- !private "handle_shutdownCallback"
+- !private "handle_update_add_htlcCallback"
+- !private "handle_update_fail_htlcCallback"
+- !private "handle_update_fail_malformed_htlcCallback"
+- !private "handle_update_feeCallback"
+- !private "handle_update_fulfill_htlcCallback"
+- !private "peer_connectedCallback"
+- !private "peer_disconnectedCallback"
+- "withUnsafePointer"
+depends-member:
+- !private ["17LDKExperimentTest13AcceptChannelC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest13AcceptChannelC", "init"]
+- !private ["17LDKExperimentTest22AnnouncementSignaturesC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest22AnnouncementSignaturesC", "init"]
+- !private ["17LDKExperimentTest8BindingsC", "instanceToPointer"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKPublicKey"]
+- !private ["17LDKExperimentTest8BindingsC", "pointerToInstance"]
+- !private ["17LDKExperimentTest8BindingsC", "tuple33_to_array"]
+- !private ["s7CVarArgP", "pointee"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "AcceptChannel"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "AnnouncementSignatures"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "Bindings"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "Bool"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "ChannelMessageHandler"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "ChannelReestablish"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "ChannelUpdate"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "ClosingSigned"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "CommitmentSigned"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "ErrorMessage"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "FundingCreated"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "FundingLocked"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "FundingSigned"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "Init"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "InitFeatures"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKAcceptChannel"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKAnnouncementSignatures"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKChannelMessageHandler"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKChannelReestablish"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKChannelUpdate"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKClosingSigned"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKCommitmentSigned"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKErrorMessage"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKFundingCreated"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKFundingLocked"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKFundingSigned"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKInit"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKInitFeatures"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKMessageSendEventsProvider"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKOpenChannel"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKPublicKey"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKRevokeAndACK"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKShutdown"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKUpdateAddHTLC"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKUpdateFailHTLC"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKUpdateFailMalformedHTLC"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKUpdateFee"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "LDKUpdateFulfillHTLC"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "OpenChannel"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "RevokeAndACK"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "Shutdown"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "UInt8"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "UnsafeMutableRawPointer"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "UnsafePointer"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "UnsafeRawPointer"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "UpdateAddHTLC"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "UpdateFailHTLC"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "UpdateFailMalformedHTLC"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "UpdateFee"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "UpdateFulfillHTLC"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "Void"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", ""]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "cOpaqueStruct"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "deinit"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "free"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "freeCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_accept_channel"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_accept_channelCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_announcement_signatures"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_announcement_signaturesCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_channel_reestablish"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_channel_reestablishCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_channel_update"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_channel_updateCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_closing_signed"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_closing_signedCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_commitment_signed"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_commitment_signedCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_error"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_errorCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_funding_created"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_funding_createdCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_funding_locked"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_funding_lockedCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_funding_signed"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_funding_signedCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_open_channel"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_open_channelCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_revoke_and_ack"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_revoke_and_ackCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_shutdown"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_shutdownCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_add_htlc"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_add_htlcCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_fail_htlc"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_fail_htlcCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_fail_malformed_htlc"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_fail_malformed_htlcCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_fee"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_feeCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_fulfill_htlc"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "handle_update_fulfill_htlcCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "init"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "peer_connected"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "peer_connectedCallback"]
+- ["17LDKExperimentTest21ChannelMessageHandlerC", "peer_disconnected"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "peer_disconnectedCallback"]
+- !private ["17LDKExperimentTest21ChannelMessageHandlerC", "withUnsafePointer"]
+- !private ["17LDKExperimentTest18ChannelReestablishC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest18ChannelReestablishC", "init"]
+- !private ["17LDKExperimentTest13ChannelUpdateC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest13ChannelUpdateC", "init"]
+- !private ["17LDKExperimentTest13ClosingSignedC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest13ClosingSignedC", "init"]
+- !private ["17LDKExperimentTest16CommitmentSignedC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest16CommitmentSignedC", "init"]
+- !private ["SL", ""]
+- !private ["SL", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["Se", "callAsFunction"]
+- !private ["SE", "callAsFunction"]
+- !private ["SQ", ""]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "pointee"]
+- !private ["17LDKExperimentTest12ErrorMessageC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest12ErrorMessageC", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["17LDKExperimentTest14FundingCreatedC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest14FundingCreatedC", "init"]
+- !private ["17LDKExperimentTest13FundingLockedC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest13FundingLockedC", "init"]
+- !private ["17LDKExperimentTest13FundingSignedC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest13FundingSignedC", "init"]
+- !private ["SH", ""]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "pointee"]
+- !private ["17LDKExperimentTest4InitC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest4InitC", "init"]
+- !private ["17LDKExperimentTest12InitFeaturesC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest12InitFeaturesC", "init"]
+- !private ["So24LDKChannelMessageHandlerV", "free"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_accept_channel"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_announcement_signatures"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_channel_reestablish"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_channel_update"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_closing_signed"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_commitment_signed"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_error"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_funding_created"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_funding_locked"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_funding_signed"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_open_channel"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_revoke_and_ack"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_shutdown"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_update_add_htlc"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_update_fail_htlc"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_update_fail_malformed_htlc"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_update_fee"]
+- !private ["So24LDKChannelMessageHandlerV", "handle_update_fulfill_htlc"]
+- !private ["So24LDKChannelMessageHandlerV", "init"]
+- !private ["So24LDKChannelMessageHandlerV", "peer_connected"]
+- !private ["So24LDKChannelMessageHandlerV", "peer_disconnected"]
+- !private ["So24LDKChannelMessageHandlerV", "this_arg"]
+- !private ["So28LDKMessageSendEventsProviderV", "init"]
+- !private ["So12LDKPublicKeyV", "compressed_form"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "AcceptChannel"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "AnnouncementSignatures"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "Bindings"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "Bool"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "ChannelReestablish"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "ChannelUpdate"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "ClosingSigned"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "CommitmentSigned"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "ErrorMessage"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "FundingCreated"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "FundingLocked"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "FundingSigned"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "Init"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "InitFeatures"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKAcceptChannel"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKAnnouncementSignatures"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKChannelReestablish"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKChannelUpdate"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKClosingSigned"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKCommitmentSigned"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKErrorMessage"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKFundingCreated"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKFundingLocked"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKFundingSigned"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKInit"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKInitFeatures"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKOpenChannel"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKRevokeAndACK"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKShutdown"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKUpdateAddHTLC"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKUpdateFailHTLC"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKUpdateFailMalformedHTLC"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKUpdateFee"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "LDKUpdateFulfillHTLC"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "OpenChannel"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "RevokeAndACK"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "Shutdown"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "UInt8"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "UnsafePointer"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "UpdateAddHTLC"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "UpdateFailHTLC"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "UpdateFailMalformedHTLC"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "UpdateFee"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "UpdateFulfillHTLC"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "Void"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "cOpaqueStruct"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "deinit"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "free"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_accept_channel"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_announcement_signatures"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_channel_reestablish"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_channel_update"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_closing_signed"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_commitment_signed"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_error"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_funding_created"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_funding_locked"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_funding_signed"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_open_channel"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_revoke_and_ack"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_shutdown"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_update_add_htlc"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_update_fail_htlc"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_update_fail_malformed_htlc"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_update_fee"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "handle_update_fulfill_htlc"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "init"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "peer_connected"]
+- ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "peer_disconnected"]
+- !private ["17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC", "withUnsafePointer"]
+- !private ["17LDKExperimentTest11OpenChannelC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest11OpenChannelC", "init"]
+- !private ["Sq", "callAsFunction"]
+- !private ["17LDKExperimentTest12RevokeAndACKC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest12RevokeAndACKC", "init"]
+- !private ["17LDKExperimentTest8ShutdownC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest8ShutdownC", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "pointee"]
+- !private ["SP", "pointee"]
+- !private ["17LDKExperimentTest13UpdateAddHTLCC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest13UpdateAddHTLCC", "init"]
+- !private ["17LDKExperimentTest14UpdateFailHTLCC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest14UpdateFailHTLCC", "init"]
+- !private ["17LDKExperimentTest23UpdateFailMalformedHTLCC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest23UpdateFailMalformedHTLCC", "init"]
+- !private ["17LDKExperimentTest9UpdateFeeC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest9UpdateFeeC", "init"]
+- !private ["17LDKExperimentTest17UpdateFulfillHTLCC", "cOpaqueStruct"]
+- !private ["17LDKExperimentTest17UpdateFulfillHTLCC", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s8_PointerP", "pointee"]
+depends-nominal:
+- !private "17LDKExperimentTest13AcceptChannelC"
+- !private "17LDKExperimentTest22AnnouncementSignaturesC"
+- !private "17LDKExperimentTest8BindingsC"
+- !private "s7CVarArgP"
+- "17LDKExperimentTest21ChannelMessageHandlerC"
+- !private "17LDKExperimentTest18ChannelReestablishC"
+- !private "17LDKExperimentTest13ChannelUpdateC"
+- !private "17LDKExperimentTest13ClosingSignedC"
+- !private "17LDKExperimentTest16CommitmentSignedC"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "17LDKExperimentTest12ErrorMessageC"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "17LDKExperimentTest14FundingCreatedC"
+- !private "17LDKExperimentTest13FundingLockedC"
+- !private "17LDKExperimentTest13FundingSignedC"
+- !private "SH"
+- !private "17LDKExperimentTest4InitC"
+- !private "17LDKExperimentTest12InitFeaturesC"
+- !private "So24LDKChannelMessageHandlerV"
+- !private "So28LDKMessageSendEventsProviderV"
+- !private "So12LDKPublicKeyV"
+- "17LDKExperimentTest40NativelyImplementedChannelMessageHandlerC"
+- !private "17LDKExperimentTest11OpenChannelC"
+- !private "Sq"
+- !private "17LDKExperimentTest12RevokeAndACKC"
+- !private "17LDKExperimentTest8ShutdownC"
+- !private "Sx"
+- !private "SP"
+- !private "17LDKExperimentTest13UpdateAddHTLCC"
+- !private "17LDKExperimentTest14UpdateFailHTLCC"
+- !private "17LDKExperimentTest23UpdateFailMalformedHTLCC"
+- !private "17LDKExperimentTest9UpdateFeeC"
+- !private "17LDKExperimentTest17UpdateFulfillHTLCC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/Build/Products/Debug/LDKMacConsumerExperiment.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3ed8691c3da51b6e3333968f566cf753"

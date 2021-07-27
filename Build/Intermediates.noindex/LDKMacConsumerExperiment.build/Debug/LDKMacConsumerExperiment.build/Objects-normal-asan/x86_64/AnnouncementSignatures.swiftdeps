@@ -1,0 +1,191 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnnouncementSignatures"
+provides-nominal:
+- "24LDKMacConsumerExperiment22AnnouncementSignaturesC"
+provides-member:
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "clone"
+- "get_bitcoin_signature"
+- "get_channel_id"
+- "get_node_signature"
+- "get_short_channel_id"
+- "read"
+- "set_bitcoin_signature"
+- "set_channel_id"
+- "set_node_signature"
+- "set_short_channel_id"
+- "write"
+depends-top-level:
+- !private "=="
+- "AnnouncementSignatures"
+- "AnnouncementSignatures_clone"
+- !private "AnnouncementSignatures_free"
+- "AnnouncementSignatures_get_bitcoin_signature"
+- "AnnouncementSignatures_get_channel_id"
+- "AnnouncementSignatures_get_node_signature"
+- "AnnouncementSignatures_get_short_channel_id"
+- !private "AnnouncementSignatures_new"
+- !private "AnnouncementSignatures_read"
+- !private "AnnouncementSignatures_set_bitcoin_signature"
+- !private "AnnouncementSignatures_set_channel_id"
+- !private "AnnouncementSignatures_set_node_signature"
+- !private "AnnouncementSignatures_set_short_channel_id"
+- "AnnouncementSignatures_write"
+- "AssignmentPrecedence"
+- !private "Bindings"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LDKAnnouncementSignatures"
+- "Result_AnnouncementSignaturesDecodeErrorZ"
+- "UInt64"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- "Void"
+- !private "withUnsafePointer"
+depends-member:
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_clone"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_free"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_get_bitcoin_signature"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_get_channel_id"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_get_node_signature"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_get_short_channel_id"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_new"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_read"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_set_bitcoin_signature"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_set_channel_id"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_set_node_signature"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_set_short_channel_id"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "AnnouncementSignatures_write"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "Bindings"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "LDKAnnouncementSignatures"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "Result_AnnouncementSignaturesDecodeErrorZ"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "UInt64"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "UInt8"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "UnsafeMutablePointer"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "UnsafePointer"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "Void"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "cOpaqueStruct"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "clone"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "deinit"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "get_bitcoin_signature"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "get_channel_id"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "get_node_signature"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "get_short_channel_id"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "init"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "read"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "set_bitcoin_signature"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "set_channel_id"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "set_node_signature"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "set_short_channel_id"]
+- !private ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "withUnsafePointer"]
+- ["24LDKMacConsumerExperiment22AnnouncementSignaturesC", "write"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKCVec_u8Z_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "LDKSignature_to_array"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKSignature"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKThirtyTwoBytes"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "new_LDKu8slice"]
+- !private ["24LDKMacConsumerExperiment8BindingsC", "tuple32_to_array"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["SL", ""]
+- !private ["SL", "allocate"]
+- !private ["SL", "initialize"]
+- !private ["SL", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["Se", "pointee"]
+- !private ["SE", "pointee"]
+- !private ["SQ", ""]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "initialize"]
+- !private ["SQ", "pointee"]
+- !private ["s23ExpressibleByNilLiteralP", "pointee"]
+- !private ["SH", ""]
+- !private ["SH", "allocate"]
+- !private ["SH", "initialize"]
+- !private ["SH", "pointee"]
+- !private ["So25LDKAnnouncementSignaturesV", "is_owned"]
+- !private ["Sq", "pointee"]
+- !private ["24LDKMacConsumerExperiment41Result_AnnouncementSignaturesDecodeErrorZC", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "initialize"]
+- !private ["Sx", "pointee"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "initialize"]
+- !private ["SP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pointee"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "initialize"]
+- !private ["s8_PointerP", "pointee"]
+depends-nominal:
+- "24LDKMacConsumerExperiment22AnnouncementSignaturesC"
+- !private "24LDKMacConsumerExperiment8BindingsC"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "So25LDKAnnouncementSignaturesV"
+- !private "Sq"
+- !private "24LDKMacConsumerExperiment41Result_AnnouncementSignaturesDecodeErrorZC"
+- !private "Sx"
+- !private "Sp"
+- !private "SP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8484defa58d2074404f7509c6efd14bf"

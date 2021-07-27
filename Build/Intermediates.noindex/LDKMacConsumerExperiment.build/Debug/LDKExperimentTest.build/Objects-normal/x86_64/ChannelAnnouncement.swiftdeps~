@@ -1,0 +1,136 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChannelAnnouncement"
+provides-nominal:
+- "17LDKExperimentTest19ChannelAnnouncementC"
+provides-member:
+- ["17LDKExperimentTest19ChannelAnnouncementC", ""]
+provides-dynamic-lookup:
+- "cOpaqueStruct"
+- "clone"
+- "get_bitcoin_signature_1"
+- "get_bitcoin_signature_2"
+- "get_contents"
+- "get_node_signature_1"
+- "get_node_signature_2"
+- "read"
+- "set_bitcoin_signature_1"
+- "set_bitcoin_signature_2"
+- "set_contents"
+- "set_node_signature_1"
+- "set_node_signature_2"
+- "write"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bindings"
+- !private "BooleanLiteralType"
+- "ChannelAnnouncement"
+- !private "ChannelAnnouncement_free"
+- !private "ChannelAnnouncement_new"
+- !private "ChannelAnnouncement_read"
+- !private "ChannelAnnouncement_set_bitcoin_signature_1"
+- !private "ChannelAnnouncement_set_bitcoin_signature_2"
+- !private "ChannelAnnouncement_set_contents"
+- !private "ChannelAnnouncement_set_node_signature_1"
+- !private "ChannelAnnouncement_set_node_signature_2"
+- "LDKChannelAnnouncement"
+- "Result_ChannelAnnouncementDecodeErrorZ"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- "UnsignedChannelAnnouncement"
+- "Void"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["17LDKExperimentTest8BindingsC", "LDKCVec_u8Z_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "LDKSignature_to_array"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKSignature"]
+- !private ["17LDKExperimentTest8BindingsC", "new_LDKu8slice"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "Bindings"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "ChannelAnnouncement"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "ChannelAnnouncement_free"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "ChannelAnnouncement_new"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "ChannelAnnouncement_read"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "ChannelAnnouncement_set_bitcoin_signature_1"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "ChannelAnnouncement_set_bitcoin_signature_2"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "ChannelAnnouncement_set_contents"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "ChannelAnnouncement_set_node_signature_1"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "ChannelAnnouncement_set_node_signature_2"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "LDKChannelAnnouncement"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "Result_ChannelAnnouncementDecodeErrorZ"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "UInt8"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "UnsafeMutablePointer"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "UnsafePointer"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "UnsignedChannelAnnouncement"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "Void"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "cOpaqueStruct"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "clone"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "deinit"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "get_bitcoin_signature_1"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "get_bitcoin_signature_2"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "get_contents"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "get_node_signature_1"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "get_node_signature_2"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "init"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "read"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "set_bitcoin_signature_1"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "set_bitcoin_signature_2"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "set_contents"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "set_node_signature_1"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "set_node_signature_2"]
+- !private ["17LDKExperimentTest19ChannelAnnouncementC", "withUnsafePointer"]
+- ["17LDKExperimentTest19ChannelAnnouncementC", "write"]
+- !private ["SY", "RawValue"]
+depends-nominal:
+- !private "17LDKExperimentTest8BindingsC"
+- "17LDKExperimentTest19ChannelAnnouncementC"
+- !private "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/Build/Products/Debug/LDKMacConsumerExperiment.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "01d169604f7ac79d259d2ba57de70c6e"

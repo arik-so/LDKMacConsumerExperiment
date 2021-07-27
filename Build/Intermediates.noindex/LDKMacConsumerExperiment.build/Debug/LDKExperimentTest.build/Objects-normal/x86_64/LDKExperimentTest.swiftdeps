@@ -1,0 +1,389 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LDKExperimentTest"
+provides-nominal:
+- "17LDKExperimentTestAAC"
+provides-member:
+- ["17LDKExperimentTestAAC", ""]
+provides-dynamic-lookup:
+- "do_test"
+- "do_test_run"
+- "setUpWithError"
+- "tearDownWithError"
+- "testExample"
+- "testExtendedActivity"
+- "testPerformanceExample"
+- "testVersionSanity"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "..<"
+- !private "<<"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "HumanObjectPeerTestInstance"
+- !private "IntegerLiteralType"
+- "LDKExperimentTest"
+- !private "SimulationRunner"
+- !private "StringLiteralType"
+- "XCTestCase"
+- !private "check_get_ldk_bindings_version"
+- !private "check_get_ldk_version"
+- !private "check_platform"
+- !private "do_test_run"
+- !private "measure"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["Sz", ""]
+- !private ["s7CVarArgP", "HumanObjectPeerTestInstance"]
+- !private ["s7CVarArgP", "SimulationRunner"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "check_get_ldk_bindings_version"]
+- !private ["s7CVarArgP", "check_get_ldk_version"]
+- !private ["s7CVarArgP", "check_platform"]
+- !private ["s7CVarArgP", "do_test_run"]
+- !private ["s7CVarArgP", "measure"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "setUpWithError"]
+- !private ["s7CVarArgP", "tearDownWithError"]
+- !private ["s7CVarArgP", "testExample"]
+- !private ["s7CVarArgP", "testExtendedActivity"]
+- !private ["s7CVarArgP", "testPerformanceExample"]
+- !private ["s7CVarArgP", "testVersionSanity"]
+- !private ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "HumanObjectPeerTestInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "SimulationRunner"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "check_get_ldk_bindings_version"]
+- !private ["s28CustomDebugStringConvertibleP", "check_get_ldk_version"]
+- !private ["s28CustomDebugStringConvertibleP", "check_platform"]
+- !private ["s28CustomDebugStringConvertibleP", "do_test_run"]
+- !private ["s28CustomDebugStringConvertibleP", "measure"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "setUpWithError"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDownWithError"]
+- !private ["s28CustomDebugStringConvertibleP", "testExample"]
+- !private ["s28CustomDebugStringConvertibleP", "testExtendedActivity"]
+- !private ["s28CustomDebugStringConvertibleP", "testPerformanceExample"]
+- !private ["s28CustomDebugStringConvertibleP", "testVersionSanity"]
+- !private ["s23CustomStringConvertibleP", "HumanObjectPeerTestInstance"]
+- !private ["s23CustomStringConvertibleP", "SimulationRunner"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "check_get_ldk_bindings_version"]
+- !private ["s23CustomStringConvertibleP", "check_get_ldk_version"]
+- !private ["s23CustomStringConvertibleP", "check_platform"]
+- !private ["s23CustomStringConvertibleP", "do_test_run"]
+- !private ["s23CustomStringConvertibleP", "measure"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "setUpWithError"]
+- !private ["s23CustomStringConvertibleP", "tearDownWithError"]
+- !private ["s23CustomStringConvertibleP", "testExample"]
+- !private ["s23CustomStringConvertibleP", "testExtendedActivity"]
+- !private ["s23CustomStringConvertibleP", "testPerformanceExample"]
+- !private ["s23CustomStringConvertibleP", "testVersionSanity"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SQ", "HumanObjectPeerTestInstance"]
+- !private ["SQ", "SimulationRunner"]
+- ["SQ", ""]
+- !private ["SQ", "check_get_ldk_bindings_version"]
+- !private ["SQ", "check_get_ldk_version"]
+- !private ["SQ", "check_platform"]
+- !private ["SQ", "do_test_run"]
+- !private ["SQ", "measure"]
+- !private ["SQ", "print"]
+- !private ["SQ", "setUpWithError"]
+- !private ["SQ", "tearDownWithError"]
+- !private ["SQ", "testExample"]
+- !private ["SQ", "testExtendedActivity"]
+- !private ["SQ", "testPerformanceExample"]
+- !private ["SQ", "testVersionSanity"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", "HumanObjectPeerTestInstance"]
+- !private ["SH", "SimulationRunner"]
+- ["SH", ""]
+- !private ["SH", "check_get_ldk_bindings_version"]
+- !private ["SH", "check_get_ldk_version"]
+- !private ["SH", "check_platform"]
+- !private ["SH", "do_test_run"]
+- !private ["SH", "measure"]
+- !private ["SH", "print"]
+- !private ["SH", "setUpWithError"]
+- !private ["SH", "tearDownWithError"]
+- !private ["SH", "testExample"]
+- !private ["SH", "testExtendedActivity"]
+- !private ["SH", "testPerformanceExample"]
+- !private ["SH", "testVersionSanity"]
+- !private ["17LDKExperimentTest015HumanObjectPeerB8InstanceC", "do_test_message_handler"]
+- !private ["17LDKExperimentTest015HumanObjectPeerB8InstanceC", "init"]
+- ["17LDKExperimentTestAAC", "Bool"]
+- ["17LDKExperimentTestAAC", "HumanObjectPeerTestInstance"]
+- !private ["17LDKExperimentTestAAC", "SimulationRunner"]
+- ["17LDKExperimentTestAAC", ""]
+- !private ["17LDKExperimentTestAAC", "check_get_ldk_bindings_version"]
+- !private ["17LDKExperimentTestAAC", "check_get_ldk_version"]
+- !private ["17LDKExperimentTestAAC", "check_platform"]
+- ["17LDKExperimentTestAAC", "deinit"]
+- !private ["17LDKExperimentTestAAC", "do_test_run"]
+- ["17LDKExperimentTestAAC", "init"]
+- !private ["17LDKExperimentTestAAC", "measure"]
+- !private ["17LDKExperimentTestAAC", "print"]
+- ["17LDKExperimentTestAAC", "setUpWithError"]
+- ["17LDKExperimentTestAAC", "tearDownWithError"]
+- ["17LDKExperimentTestAAC", "testExample"]
+- ["17LDKExperimentTestAAC", "testExtendedActivity"]
+- ["17LDKExperimentTestAAC", "testPerformanceExample"]
+- ["17LDKExperimentTestAAC", "testVersionSanity"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", ""]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "HumanObjectPeerTestInstance"]
+- !private ["So8NSObjectC", "SimulationRunner"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "check_get_ldk_bindings_version"]
+- !private ["So8NSObjectC", "check_get_ldk_version"]
+- !private ["So8NSObjectC", "check_platform"]
+- !private ["So8NSObjectC", "do_test_run"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "measure"]
+- !private ["So8NSObjectC", "measureBlock"]
+- !private ["So8NSObjectC", "measureWithMetrics"]
+- !private ["So8NSObjectC", "measureWithOptions"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "setUpWithError"]
+- ["So8NSObjectC", "tearDownWithError"]
+- ["So8NSObjectC", "testCaseWithInvocation"]
+- ["So8NSObjectC", "testCaseWithSelector"]
+- ["So8NSObjectC", "testExample"]
+- ["So8NSObjectC", "testExtendedActivity"]
+- ["So8NSObjectC", "testPerformanceExample"]
+- ["So8NSObjectC", "testVersionSanity"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "HumanObjectPeerTestInstance"]
+- !private ["So8NSObjectP", "SimulationRunner"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "check_get_ldk_bindings_version"]
+- !private ["So8NSObjectP", "check_get_ldk_version"]
+- !private ["So8NSObjectP", "check_platform"]
+- !private ["So8NSObjectP", "do_test_run"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "measure"]
+- !private ["So8NSObjectP", "measureBlock"]
+- !private ["So8NSObjectP", "measureWithMetrics"]
+- !private ["So8NSObjectP", "measureWithOptions"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "setUpWithError"]
+- ["So8NSObjectP", "tearDownWithError"]
+- ["So8NSObjectP", "testCaseWithInvocation"]
+- ["So8NSObjectP", "testCaseWithSelector"]
+- ["So8NSObjectP", "testExample"]
+- ["So8NSObjectP", "testExtendedActivity"]
+- ["So8NSObjectP", "testPerformanceExample"]
+- ["So8NSObjectP", "testVersionSanity"]
+- !private ["Sj", ""]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", "makeIterator"]
+- !private ["Sx", ""]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["So11XCTActivityP", "Bool"]
+- ["So11XCTActivityP", "HumanObjectPeerTestInstance"]
+- !private ["So11XCTActivityP", "SimulationRunner"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "check_get_ldk_bindings_version"]
+- !private ["So11XCTActivityP", "check_get_ldk_version"]
+- !private ["So11XCTActivityP", "check_platform"]
+- !private ["So11XCTActivityP", "do_test_run"]
+- ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "measure"]
+- !private ["So11XCTActivityP", "print"]
+- ["So11XCTActivityP", "setUpWithError"]
+- ["So11XCTActivityP", "tearDownWithError"]
+- ["So11XCTActivityP", "testExample"]
+- ["So11XCTActivityP", "testExtendedActivity"]
+- ["So11XCTActivityP", "testPerformanceExample"]
+- ["So11XCTActivityP", "testVersionSanity"]
+- ["So17XCTWaiterDelegateP", "Bool"]
+- ["So17XCTWaiterDelegateP", "HumanObjectPeerTestInstance"]
+- !private ["So17XCTWaiterDelegateP", "SimulationRunner"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "check_get_ldk_bindings_version"]
+- !private ["So17XCTWaiterDelegateP", "check_get_ldk_version"]
+- !private ["So17XCTWaiterDelegateP", "check_platform"]
+- !private ["So17XCTWaiterDelegateP", "do_test_run"]
+- ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "measure"]
+- !private ["So17XCTWaiterDelegateP", "print"]
+- ["So17XCTWaiterDelegateP", "setUpWithError"]
+- ["So17XCTWaiterDelegateP", "tearDownWithError"]
+- ["So17XCTWaiterDelegateP", "testExample"]
+- ["So17XCTWaiterDelegateP", "testExtendedActivity"]
+- ["So17XCTWaiterDelegateP", "testPerformanceExample"]
+- ["So17XCTWaiterDelegateP", "testVersionSanity"]
+- ["So6XCTestC", "Bool"]
+- ["So6XCTestC", "HumanObjectPeerTestInstance"]
+- !private ["So6XCTestC", "SimulationRunner"]
+- ["So6XCTestC", ""]
+- !private ["So6XCTestC", "check_get_ldk_bindings_version"]
+- !private ["So6XCTestC", "check_get_ldk_version"]
+- !private ["So6XCTestC", "check_platform"]
+- !private ["So6XCTestC", "do_test_run"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "measure"]
+- !private ["So6XCTestC", "measureBlock"]
+- !private ["So6XCTestC", "measureWithMetrics"]
+- !private ["So6XCTestC", "measureWithOptions"]
+- !private ["So6XCTestC", "print"]
+- ["So6XCTestC", "setUpWithError"]
+- ["So6XCTestC", "tearDownWithError"]
+- ["So6XCTestC", "testCaseWithInvocation"]
+- ["So6XCTestC", "testCaseWithSelector"]
+- ["So6XCTestC", "testExample"]
+- ["So6XCTestC", "testExtendedActivity"]
+- ["So6XCTestC", "testPerformanceExample"]
+- ["So6XCTestC", "testVersionSanity"]
+- ["So10XCTestCaseC", "Bool"]
+- ["So10XCTestCaseC", "HumanObjectPeerTestInstance"]
+- !private ["So10XCTestCaseC", "SimulationRunner"]
+- ["So10XCTestCaseC", ""]
+- !private ["So10XCTestCaseC", "check_get_ldk_bindings_version"]
+- !private ["So10XCTestCaseC", "check_get_ldk_version"]
+- !private ["So10XCTestCaseC", "check_platform"]
+- !private ["So10XCTestCaseC", "do_test_run"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "measure"]
+- !private ["So10XCTestCaseC", "print"]
+- ["So10XCTestCaseC", "setUpWithError"]
+- ["So10XCTestCaseC", "tearDownWithError"]
+- ["So10XCTestCaseC", "testExample"]
+- ["So10XCTestCaseC", "testExtendedActivity"]
+- ["So10XCTestCaseC", "testPerformanceExample"]
+- ["So10XCTestCaseC", "testVersionSanity"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HumanObjectPeerTestInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SimulationRunner"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "check_get_ldk_bindings_version"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "check_get_ldk_version"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "check_platform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "do_test_run"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "measure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUpWithError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDownWithError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testExample"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testExtendedActivity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testPerformanceExample"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testVersionSanity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "HumanObjectPeerTestInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SimulationRunner"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "check_get_ldk_bindings_version"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "check_get_ldk_version"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "check_platform"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "do_test_run"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "measure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setUpWithError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tearDownWithError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testExample"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testExtendedActivity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testPerformanceExample"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testVersionSanity"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sz"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "SH"
+- !private "17LDKExperimentTest015HumanObjectPeerB8InstanceC"
+- "17LDKExperimentTestAAC"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "ST"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/Build/Products/Debug/LDKMacConsumerExperiment.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/lightning.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment-Bridging-Header.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_ver.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_rust_types.h"
+- "/Users/arik/Developer/LDKMacConsumerExperiment/ldk_net.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2291f8272815a427b70398cb0b3048fd"

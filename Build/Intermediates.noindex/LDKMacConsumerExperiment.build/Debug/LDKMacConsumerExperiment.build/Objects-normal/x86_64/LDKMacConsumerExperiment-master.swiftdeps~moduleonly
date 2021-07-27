@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "44d87de9f1e258b536a1318ea0a369c7"
+build_time: [1627408222, 683696000]
+inputs:
+  "/Users/arik/Developer/LDKMacConsumerExperiment/LDKMacConsumerExperiment/main.swift": [1627408221, 564824312]
