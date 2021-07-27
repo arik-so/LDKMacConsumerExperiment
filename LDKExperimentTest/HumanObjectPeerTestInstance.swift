@@ -118,14 +118,10 @@ public class HumanObjectPeerTestInstance {
         
         fileprivate class TestPersister: Persist {
             override func persist_new_channel(id: OutPoint, data: ChannelMonitor) -> Result_NoneChannelMonitorUpdateErrZ {
-                var result = Result_NoneChannelMonitorUpdateErrZ()
-                result.cOpaqueStruct!.result_ok = true
-                return result
+                return Result_NoneChannelMonitorUpdateErrZ()
             }
             override func update_persisted_channel(id: OutPoint, update: ChannelMonitorUpdate, data: ChannelMonitor) -> Result_NoneChannelMonitorUpdateErrZ {
-                var result = Result_NoneChannelMonitorUpdateErrZ()
-                result.cOpaqueStruct!.result_ok = true
-                return result
+                return Result_NoneChannelMonitorUpdateErrZ()
             }
         }
         
