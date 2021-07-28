@@ -27,15 +27,15 @@ let package = Package(
                 cxxSettings: nil,
                 swiftSettings: nil,
                 linkerSettings: [
-                    .linkedLibrary("/Users/arik/Developer/LDKMacConsumerExperiment/Sources/LDKMacConsumerExperiment/libldk.a")
+                    .linkedLibrary("libldk.a")
                 ]),
         .testTarget(
             name: "LDKMacConsumerExperimentTests",
             dependencies: ["LDKMacConsumerExperiment"]),
-        .binaryTarget(
-            name: "LDKFramework",
-            path: "LDKFrameworkMac.xcframework"
-        ),
+//        .binaryTarget(
+//            name: "LDKFramework",
+//            path: "LDKFrameworkMac.xcframework"
+//        ),
         // .systemLibrary(name: "libldk", path: "Sources/libldk", pkgConfig: nil, providers: nil)
     ]
 )

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import LDKMacConsumerExperiment
+// @testable import LDKMacConsumerExperiment
 
 class LDKExperimentTest: XCTestCase {
 
@@ -55,12 +55,12 @@ class LDKExperimentTest: XCTestCase {
         }
         
         // avoid early termination
-        /*
-        print("Press enter to stop running test.")
-        let keyboard = FileHandle.standardInput
-        let inputData = keyboard.availableData
-        let strData = String(data: inputData, encoding: String.Encoding.utf8)!
-        */
+        
+//        print("Press enter to stop running test.")
+//        let keyboard = FileHandle.standardInput
+//        let inputData = keyboard.availableData
+//        let strData = String(data: inputData, encoding: String.Encoding.utf8)!
+        
         
     }
     

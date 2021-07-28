@@ -250,6 +250,12 @@ public class HumanObjectPeerTestInstance {
         let peer2 = Peer(master: self, seed: 2)
         
         connectPeers(peerA: peer1, peerB: peer2)
+        while true {
+            print("processing")
+            peer1.peerManager.process_events()
+            peer2.peerManager.process_events()
+            Thread.sleep(forTimeInterval: 0.5) // sleep for half a second
+        }
     }
     
 }

@@ -826,6 +826,7 @@
 		0767DF9B26B08C5C00BEB4CC /* TCPPeerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPPeerHandler.swift; sourceTree = "<group>"; };
 		0767DF9C26B08C5D00BEB4CC /* UtilMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilMethods.swift; sourceTree = "<group>"; };
 		0767DF9D26B08C5D00BEB4CC /* ChannelManagerConstructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelManagerConstructor.swift; sourceTree = "<group>"; };
+		2DD11AD724B7C21938031D81 /* swift.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = swift.yml; path = .github/workflows/swift.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -858,6 +859,7 @@
 				0767DC4626B01D1900BEB4CC /* LDKExperimentTest */,
 				0767DC3726B01CB600BEB4CC /* Products */,
 				0767DC4F26B01D5F00BEB4CC /* Frameworks */,
+				2DD11AD724B7C21938031D81 /* swift.yml */,
 			);
 			sourceTree = "<group>";
 		};

@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E07A3325-A461-4D12-BE18-40A7EAF2B7D1"
+            uuid = "F76CCE61-801C-4590-8DD3-FF1F990AE584"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "batteries/TCPPeerHandler.swift"
+            filePath = "LDKExperimentTest/HumanObjectPeerTestInstance.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "connect(address:port:theirNodeId:)"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "connectPeers(peerA:peerB:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

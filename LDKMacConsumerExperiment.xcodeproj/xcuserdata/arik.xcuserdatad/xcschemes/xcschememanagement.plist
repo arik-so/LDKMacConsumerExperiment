@@ -20,7 +20,12 @@
 		<key>0767DC3526B01CB600BEB4CC</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
+		</dict>
+		<key>0767DC4426B01D1900BEB4CC</key>
+		<dict>
+			<key>primary</key>
+			<true />
 		</dict>
 	</dict>
 </dict>
